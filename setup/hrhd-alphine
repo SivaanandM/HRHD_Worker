@@ -1,0 +1,31 @@
+FROM python:3.7-alpine
+
+RUN apk add --update alpine-sdk
+RUN echo -e "STEP-1 Updating base image"
+
+RUN apk add git
+RUN echo -e "STEP-2 Installing git"
+
+RUN git clone https://github.com/SivaanandM/HRHD_Worker.git
+RUN echo -e "STEP-3 Cloning updated code from git"
+
+ENV HRHD_WORKER="/HRHD_Worker"
+RUN echo -e "STEP-4 Set Environment variable HRHD_WORKER"
+
+COPY keys /HRHD_Worker/setup/keys/
+RUN echo -e "STEP-5 Coping key file to container"
+
+RUN pip3 install -r /HRHD_Worker/setup/requirements.txt
+RUN echo -e "STEP-6 Installed all required python modules"
+
+WORKDIR $HRHD_WORKER/src/brokerlib/
+
+RUN echo `python3 setup.py install`
+RUN echo -e "STEP-7 Installed all ibapi python module"
+
+WORKDIR $HRHD_WORKER/src/hrhd_worker/
+RUN echo -e "STEP-8 Setup the working directory"
+
+RUN ls
+
+CMD ["cmd"]

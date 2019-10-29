@@ -1,0 +1,79 @@
+[
+  {
+    "Company Name": "Indiabulls Housing Finance Ltd.",
+    "Industry": "FINANCIAL SERVICES",
+    "Symbol": "IBULHSGFIN",
+    "Series": "EQ",
+    "ISIN Code": "INE148I01020"
+  },
+  {
+    "Company Name": "Yes Bank Ltd.",
+    "Industry": "FINANCIAL SERVICES",
+    "Symbol": "YESBANK",
+    "Series": "EQ",
+    "ISIN Code": "INE528G01027"
+  },
+  {
+    "Company Name": "State Bank of India",
+    "Industry": "FINANCIAL SERVICES",
+    "Symbol": "SBIN",
+    "Series": "EQ",
+    "ISIN Code": "INE062A01020"
+  },
+  {
+    "Company Name": "HDFC Bank Ltd.",
+    "Industry": "FINANCIAL SERVICES",
+    "Symbol": "HDFCBANK",
+    "Series": "EQ",
+    "ISIN Code": "INE040A01026"
+  },
+  {
+    "Company Name": "Reliance Industries Ltd.",
+    "Industry": "ENERGY",
+    "Symbol": "RELIANCE",
+    "Series": "EQ",
+    "ISIN Code": "INE002A01018"
+  },
+  {
+    "Company Name": "Bharti Airtel Ltd.",
+    "Industry": "TELECOM",
+    "Symbol": "BHARTIARTL",
+    "Series": "EQ",
+    "ISIN Code": "INE397D01024"
+  },
+  {
+    "Company Name": "Maruti Suzuki India Ltd.",
+    "Industry": "AUTOMOBILE",
+    "Symbol": "MARUTI",
+    "Series": "EQ",
+    "ISIN Code": "INE585B01010"
+  },
+  {
+    "Company Name": "Dr. Reddy's Laboratories Ltd.",
+    "Industry": "PHARMA",
+    "Symbol": "DRREDDY",
+    "Series": "EQ",
+    "ISIN Code": "INE089A01023"
+  },
+  {
+    "Company Name": "Cipla Ltd.",
+    "Industry": "PHARMA",
+    "Symbol": "CIPLA",
+    "Series": "EQ",
+    "ISIN Code": "INE059A01026"
+  },
+  {
+    "Company Name": "Adani Ports and Special Economic Zone Ltd.",
+    "Industry": "SERVICES",
+    "Symbol": "ADANIPORTS",
+    "Series": "EQ",
+    "ISIN Code": "INE742F01042"
+  },
+  {
+    "Company Name": "Asian Paints Ltd.",
+    "Industry": "CONSUMER GOODS",
+    "Symbol": "ASIANPAINT",
+    "Series": "EQ",
+    "ISIN Code": "INE021A01026"
+  }
+]

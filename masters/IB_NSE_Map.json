@@ -1,0 +1,3717 @@
+[
+ {
+   "id": 1,
+   "IB_Symbol": "21STCENMG",
+   "NSE_Symbol": "21STCENMGM"
+ },
+ {
+   "id": 2,
+   "IB_Symbol": "3IINFOTEC",
+   "NSE_Symbol": "3IINFOTECH"
+ },
+ {
+   "id": 3,
+   "IB_Symbol": "AAKASH",
+   "NSE_Symbol": "AAKASH_SM"
+ },
+ {
+   "id": 4,
+   "IB_Symbol": "AARON",
+   "NSE_Symbol": "AARON_SM"
+ },
+ {
+   "id": 5,
+   "IB_Symbol": "AARTIDRUG",
+   "NSE_Symbol": "AARTIDRUGS"
+ },
+ {
+   "id": 6,
+   "IB_Symbol": "AARVI",
+   "NSE_Symbol": "AARVI_SM"
+ },
+ {
+   "id": 7,
+   "IB_Symbol": "ABBOTINDI",
+   "NSE_Symbol": "ABBOTINDIA"
+ },
+ {
+   "id": 8,
+   "IB_Symbol": "ABGSHIP",
+   "NSE_Symbol": "ABGSHIP_BZ"
+ },
+ {
+   "id": 9,
+   "IB_Symbol": "ABSLNN50E",
+   "NSE_Symbol": "ABSLNN50ET"
+ },
+ {
+   "id": 10,
+   "IB_Symbol": "ACCORD",
+   "NSE_Symbol": "ACCORD_SM"
+ },
+ {
+   "id": 11,
+   "IB_Symbol": "ACCURACY",
+   "NSE_Symbol": "ACCURACY_SM"
+ },
+ {
+   "id": 12,
+   "IB_Symbol": "ACEINTEG",
+   "NSE_Symbol": "ACEINTEG_SM"
+ },
+ {
+   "id": 13,
+   "IB_Symbol": "ADANIGREE",
+   "NSE_Symbol": "ADANIGREEN"
+ },
+ {
+   "id": 14,
+   "IB_Symbol": "ADANIPORT",
+   "NSE_Symbol": "ADANIPORTS"
+ },
+ {
+   "id": 15,
+   "IB_Symbol": "ADANIPOWE",
+   "NSE_Symbol": "ADANIPOWER"
+ },
+ {
+   "id": 16,
+   "IB_Symbol": "ADANITRAN",
+   "NSE_Symbol": "ADANITRANS"
+ },
+ {
+   "id": 17,
+   "IB_Symbol": "ADHUNIKIN",
+   "NSE_Symbol": "ADHUNIKIND"
+ },
+ {
+   "id": 18,
+   "IB_Symbol": "ADROITINF",
+   "NSE_Symbol": "ADROITINFO"
+ },
+ {
+   "id": 19,
+   "IB_Symbol": "ADVANIHOT",
+   "NSE_Symbol": "ADVANIHOTR"
+ },
+ {
+   "id": 20,
+   "IB_Symbol": "ADVENZYME",
+   "NSE_Symbol": "ADVENZYMES"
+ },
+ {
+   "id": 21,
+   "IB_Symbol": "AGROPHOS",
+   "NSE_Symbol": "AGROPHOS_SM"
+ },
+ {
+   "id": 22,
+   "IB_Symbol": "AHIMSA",
+   "NSE_Symbol": "AHIMSA_SM"
+ },
+ {
+   "id": 23,
+   "IB_Symbol": "AHLADA",
+   "NSE_Symbol": "AHLADA_SM"
+ },
+ {
+   "id": 24,
+   "IB_Symbol": "AIRAN",
+   "NSE_Symbol": "AIRAN_SM"
+ },
+ {
+   "id": 25,
+   "IB_Symbol": "AIROLAM",
+   "NSE_Symbol": "AIROLAM_SM"
+ },
+ {
+   "id": 26,
+   "IB_Symbol": "AISL",
+   "NSE_Symbol": "AISL_SM"
+ },
+ {
+   "id": 27,
+   "IB_Symbol": "AJANTPHAR",
+   "NSE_Symbol": "AJANTPHARM"
+ },
+ {
+   "id": 28,
+   "IB_Symbol": "AJOONI",
+   "NSE_Symbol": "AJOONI_SM"
+ },
+ {
+   "id": 29,
+   "IB_Symbol": "AKASH",
+   "NSE_Symbol": "AKASH_SM"
+ },
+ {
+   "id": 30,
+   "IB_Symbol": "AKG",
+   "NSE_Symbol": "AKG_SM"
+ },
+ {
+   "id": 31,
+   "IB_Symbol": "AKSHARCHE",
+   "NSE_Symbol": "AKSHARCHEM"
+ },
+ {
+   "id": 32,
+   "IB_Symbol": "AKSHOPTFB",
+   "NSE_Symbol": "AKSHOPTFBR"
+ },
+ {
+   "id": 33,
+   "IB_Symbol": "ALBERTDAV",
+   "NSE_Symbol": "ALBERTDAVD"
+ },
+ {
+   "id": 34,
+   "IB_Symbol": "ALCHEM",
+   "NSE_Symbol": "ALCHEM_BE"
+ },
+ {
+   "id": 35,
+   "IB_Symbol": "ALEMBICLT",
+   "NSE_Symbol": "ALEMBICLTD"
+ },
+ {
+   "id": 36,
+   "IB_Symbol": "ALKYLAMIN",
+   "NSE_Symbol": "ALKYLAMINE"
+ },
+ {
+   "id": 37,
+   "IB_Symbol": "AMARAJABA",
+   "NSE_Symbol": "AMARAJABAT"
+ },
+ {
+   "id": 38,
+   "IB_Symbol": "AMBANIORG",
+   "NSE_Symbol": "AMBANIORG_SM"
+ },
+ {
+   "id": 39,
+   "IB_Symbol": "AMJUMBO",
+   "NSE_Symbol": "AMJUMBO_SM"
+ },
+ {
+   "id": 40,
+   "IB_Symbol": "AMRUTANJA",
+   "NSE_Symbol": "AMRUTANJAN"
+ },
+ {
+   "id": 41,
+   "IB_Symbol": "ANDHRABAN",
+   "NSE_Symbol": "ANDHRABANK"
+ },
+ {
+   "id": 42,
+   "IB_Symbol": "ANDHRACEM",
+   "NSE_Symbol": "ANDHRACEMT"
+ },
+ {
+   "id": 43,
+   "IB_Symbol": "ANDHRSUGA",
+   "NSE_Symbol": "ANDHRSUGAR"
+ },
+ {
+   "id": 44,
+   "IB_Symbol": "ANGIND",
+   "NSE_Symbol": "ANGIND_BE"
+ },
+ {
+   "id": 45,
+   "IB_Symbol": "ANTGRAPHI",
+   "NSE_Symbol": "ANTGRAPHIC_BE"
+ },
+ {
+   "id": 46,
+   "IB_Symbol": "APCOTEXIN",
+   "NSE_Symbol": "APCOTEXIND"
+ },
+ {
+   "id": 47,
+   "IB_Symbol": "APOLLOHOS",
+   "NSE_Symbol": "APOLLOHOSP"
+ },
+ {
+   "id": 48,
+   "IB_Symbol": "APOLLOTYR",
+   "NSE_Symbol": "APOLLOTYRE"
+ },
+ {
+   "id": 49,
+   "IB_Symbol": "APOLSINHO",
+   "NSE_Symbol": "APOLSINHOT_BE"
+ },
+ {
+   "id": 50,
+   "IB_Symbol": "ARIHANTSU",
+   "NSE_Symbol": "ARIHANTSUP"
+ },
+ {
+   "id": 51,
+   "IB_Symbol": "AROGRANIT",
+   "NSE_Symbol": "AROGRANITE"
+ },
+ {
+   "id": 52,
+   "IB_Symbol": "ARROWGREE",
+   "NSE_Symbol": "ARROWGREEN_BE"
+ },
+ {
+   "id": 53,
+   "IB_Symbol": "ARTNIRMAN",
+   "NSE_Symbol": "ARTNIRMAN_SM"
+ },
+ {
+   "id": 54,
+   "IB_Symbol": "ARVEE",
+   "NSE_Symbol": "ARVEE_SM"
+ },
+ {
+   "id": 55,
+   "IB_Symbol": "ASAHIINDI",
+   "NSE_Symbol": "ASAHIINDIA"
+ },
+ {
+   "id": 56,
+   "IB_Symbol": "ASHAPURMI",
+   "NSE_Symbol": "ASHAPURMIN"
+ },
+ {
+   "id": 57,
+   "IB_Symbol": "ASHIMASYN",
+   "NSE_Symbol": "ASHIMASYN_BE"
+ },
+ {
+   "id": 58,
+   "IB_Symbol": "ASIANHOTN",
+   "NSE_Symbol": "ASIANHOTNR"
+ },
+ {
+   "id": 59,
+   "IB_Symbol": "ASIANPAIN",
+   "NSE_Symbol": "ASIANPAINT"
+ },
+ {
+   "id": 60,
+   "IB_Symbol": "ASIANTILE",
+   "NSE_Symbol": "ASIANTILES"
+ },
+ {
+   "id": 61,
+   "IB_Symbol": "ASLIND",
+   "NSE_Symbol": "ASLIND_SM"
+ },
+ {
+   "id": 62,
+   "IB_Symbol": "ASTRAMICR",
+   "NSE_Symbol": "ASTRAMICRO"
+ },
+ {
+   "id": 63,
+   "IB_Symbol": "ATLASCYCL",
+   "NSE_Symbol": "ATLASCYCLE_BE"
+ },
+ {
+   "id": 64,
+   "IB_Symbol": "AURDIS",
+   "NSE_Symbol": "AURDIS_SM"
+ },
+ {
+   "id": 65,
+   "IB_Symbol": "AUROPHARM",
+   "NSE_Symbol": "AUROPHARMA"
+ },
+ {
+   "id": 66,
+   "IB_Symbol": "AUTOLITIN",
+   "NSE_Symbol": "AUTOLITIND"
+ },
+ {
+   "id": 67,
+   "IB_Symbol": "AVADHSUGA",
+   "NSE_Symbol": "AVADHSUGAR"
+ },
+ {
+   "id": 68,
+   "IB_Symbol": "AVANTIFEE",
+   "NSE_Symbol": "AVANTIFEED"
+ },
+ {
+   "id": 69,
+   "IB_Symbol": "AVG",
+   "NSE_Symbol": "AVG_SM"
+ },
+ {
+   "id": 70,
+   "IB_Symbol": "AVONMPL",
+   "NSE_Symbol": "AVONMPL_SM"
+ },
+ {
+   "id": 71,
+   "IB_Symbol": "AVSL",
+   "NSE_Symbol": "AVSL_SM"
+ },
+ {
+   "id": 72,
+   "IB_Symbol": "BAFNAPHAR",
+   "NSE_Symbol": "BAFNAPHARM"
+ },
+ {
+   "id": 73,
+   "IB_Symbol": "BAJAJ-AUT",
+   "NSE_Symbol": "BAJAJ-AUTO"
+ },
+ {
+   "id": 74,
+   "IB_Symbol": "BAJAJFINS",
+   "NSE_Symbol": "BAJAJFINSV"
+ },
+ {
+   "id": 75,
+   "IB_Symbol": "BAJAJHLDN",
+   "NSE_Symbol": "BAJAJHLDNG"
+ },
+ {
+   "id": 76,
+   "IB_Symbol": "BAJFINANC",
+   "NSE_Symbol": "BAJFINANCE"
+ },
+ {
+   "id": 77,
+   "IB_Symbol": "BALAJITEL",
+   "NSE_Symbol": "BALAJITELE"
+ },
+ {
+   "id": 78,
+   "IB_Symbol": "BALKRISHN",
+   "NSE_Symbol": "BALKRISHNA"
+ },
+ {
+   "id": 79,
+   "IB_Symbol": "BALKRISIN",
+   "NSE_Symbol": "BALKRISIND"
+ },
+ {
+   "id": 80,
+   "IB_Symbol": "BALMLAWRI",
+   "NSE_Symbol": "BALMLAWRIE"
+ },
+ {
+   "id": 81,
+   "IB_Symbol": "BALRAMCHI",
+   "NSE_Symbol": "BALRAMCHIN"
+ },
+ {
+   "id": 82,
+   "IB_Symbol": "BANARBEAD",
+   "NSE_Symbol": "BANARBEADS"
+ },
+ {
+   "id": 83,
+   "IB_Symbol": "BANCOINDI",
+   "NSE_Symbol": "BANCOINDIA"
+ },
+ {
+   "id": 84,
+   "IB_Symbol": "BANDHANBN",
+   "NSE_Symbol": "BANDHANBNK"
+ },
+ {
+   "id": 85,
+   "IB_Symbol": "BANKA",
+   "NSE_Symbol": "BANKA_SM"
+ },
+ {
+   "id": 86,
+   "IB_Symbol": "BANKBAROD",
+   "NSE_Symbol": "BANKBARODA"
+ },
+ {
+   "id": 87,
+   "IB_Symbol": "BANSAL",
+   "NSE_Symbol": "BANSAL_SM"
+ },
+ {
+   "id": 88,
+   "IB_Symbol": "BARTRONIC",
+   "NSE_Symbol": "BARTRONICS"
+ },
+ {
+   "id": 89,
+   "IB_Symbol": "BBTCL",
+   "NSE_Symbol": "BBTCL_SM"
+ },
+ {
+   "id": 90,
+   "IB_Symbol": "BCONCEPTS",
+   "NSE_Symbol": "BCONCEPTS_SM"
+ },
+ {
+   "id": 91,
+   "IB_Symbol": "BERGEPAIN",
+   "NSE_Symbol": "BERGEPAINT"
+ },
+ {
+   "id": 92,
+   "IB_Symbol": "BETA",
+   "NSE_Symbol": "BETA_SM"
+ },
+ {
+   "id": 93,
+   "IB_Symbol": "BFUTILITI",
+   "NSE_Symbol": "BFUTILITIE"
+ },
+ {
+   "id": 94,
+   "IB_Symbol": "BGLOBAL",
+   "NSE_Symbol": "BGLOBAL_BE"
+ },
+ {
+   "id": 95,
+   "IB_Symbol": "BHAGYAPRO",
+   "NSE_Symbol": "BHAGYAPROP"
+ },
+ {
+   "id": 96,
+   "IB_Symbol": "BHARATFOR",
+   "NSE_Symbol": "BHARATFORG"
+ },
+ {
+   "id": 97,
+   "IB_Symbol": "BHARATGEA",
+   "NSE_Symbol": "BHARATGEAR"
+ },
+ {
+   "id": 98,
+   "IB_Symbol": "BHARATWIR",
+   "NSE_Symbol": "BHARATWIRE"
+ },
+ {
+   "id": 99,
+   "IB_Symbol": "BHARTIART",
+   "NSE_Symbol": "BHARTIARTL"
+ },
+ {
+   "id": 100,
+   "IB_Symbol": "BILENERGY",
+   "NSE_Symbol": "BILENERGY_BE"
+ },
+ {
+   "id": 101,
+   "IB_Symbol": "BINDALAGR",
+   "NSE_Symbol": "BINDALAGRO"
+ },
+ {
+   "id": 102,
+   "IB_Symbol": "BIRLACABL",
+   "NSE_Symbol": "BIRLACABLE"
+ },
+ {
+   "id": 103,
+   "IB_Symbol": "BIRLACORP",
+   "NSE_Symbol": "BIRLACORPN"
+ },
+ {
+   "id": 104,
+   "IB_Symbol": "BIRLAMONE",
+   "NSE_Symbol": "BIRLAMONEY_BE"
+ },
+ {
+   "id": 105,
+   "IB_Symbol": "BLBLIMITE",
+   "NSE_Symbol": "BLBLIMITED"
+ },
+ {
+   "id": 106,
+   "IB_Symbol": "BLUEBLEND",
+   "NSE_Symbol": "BLUEBLENDS"
+ },
+ {
+   "id": 107,
+   "IB_Symbol": "BLUECOAST",
+   "NSE_Symbol": "BLUECOAST_BE"
+ },
+ {
+   "id": 108,
+   "IB_Symbol": "BLUESTARC",
+   "NSE_Symbol": "BLUESTARCO"
+ },
+ {
+   "id": 109,
+   "IB_Symbol": "BOHRA",
+   "NSE_Symbol": "BOHRA_SM"
+ },
+ {
+   "id": 110,
+   "IB_Symbol": "BRIGHT",
+   "NSE_Symbol": "BRIGHT_SM"
+ },
+ {
+   "id": 111,
+   "IB_Symbol": "BSHSL",
+   "NSE_Symbol": "BSHSL_SM"
+ },
+ {
+   "id": 112,
+   "IB_Symbol": "BSLGOLDET",
+   "NSE_Symbol": "BSLGOLDETF"
+ },
+ {
+   "id": 113,
+   "IB_Symbol": "BVCL",
+   "NSE_Symbol": "BVCL_BE"
+ },
+ {
+   "id": 114,
+   "IB_Symbol": "CADSYS",
+   "NSE_Symbol": "CADSYS_SM"
+ },
+ {
+   "id": 115,
+   "IB_Symbol": "CAMLINFIN",
+   "NSE_Symbol": "CAMLINFINE"
+ },
+ {
+   "id": 116,
+   "IB_Symbol": "CANFINHOM",
+   "NSE_Symbol": "CANFINHOME"
+ },
+ {
+   "id": 117,
+   "IB_Symbol": "CAPLIPOIN",
+   "NSE_Symbol": "CAPLIPOINT"
+ },
+ {
+   "id": 118,
+   "IB_Symbol": "CAPTRUST",
+   "NSE_Symbol": "CAPTRUST_BE"
+ },
+ {
+   "id": 119,
+   "IB_Symbol": "CARBORUNI",
+   "NSE_Symbol": "CARBORUNIV"
+ },
+ {
+   "id": 120,
+   "IB_Symbol": "CARERATIN",
+   "NSE_Symbol": "CARERATING"
+ },
+ {
+   "id": 121,
+   "IB_Symbol": "CASTEXTEC",
+   "NSE_Symbol": "CASTEXTECH"
+ },
+ {
+   "id": 122,
+   "IB_Symbol": "CASTROLIN",
+   "NSE_Symbol": "CASTROLIND"
+ },
+ {
+   "id": 123,
+   "IB_Symbol": "CEBBCO",
+   "NSE_Symbol": "CEBBCO_BE"
+ },
+ {
+   "id": 124,
+   "IB_Symbol": "CENTURYPL",
+   "NSE_Symbol": "CENTURYPLY"
+ },
+ {
+   "id": 125,
+   "IB_Symbol": "CENTURYTE",
+   "NSE_Symbol": "CENTURYTEX"
+ },
+ {
+   "id": 126,
+   "IB_Symbol": "CEREBRAIN",
+   "NSE_Symbol": "CEREBRAINT"
+ },
+ {
+   "id": 127,
+   "IB_Symbol": "CHAMBLFER",
+   "NSE_Symbol": "CHAMBLFERT"
+ },
+ {
+   "id": 128,
+   "IB_Symbol": "CHENNPETR",
+   "NSE_Symbol": "CHENNPETRO"
+ },
+ {
+   "id": 129,
+   "IB_Symbol": "CHROMATIC",
+   "NSE_Symbol": "CHROMATIC_BE"
+ },
+ {
+   "id": 130,
+   "IB_Symbol": "CIGNITITE",
+   "NSE_Symbol": "CIGNITITEC"
+ },
+ {
+   "id": 131,
+   "IB_Symbol": "CKPLEISUR",
+   "NSE_Symbol": "CKPLEISURE_SM"
+ },
+ {
+   "id": 132,
+   "IB_Symbol": "CKPPRODUC",
+   "NSE_Symbol": "CKPPRODUCT_SM"
+ },
+ {
+   "id": 133,
+   "IB_Symbol": "CMMIPL",
+   "NSE_Symbol": "CMMIPL_SM"
+ },
+ {
+   "id": 134,
+   "IB_Symbol": "CNOVAPETR",
+   "NSE_Symbol": "CNOVAPETRO"
+ },
+ {
+   "id": 135,
+   "IB_Symbol": "COCHINSHI",
+   "NSE_Symbol": "COCHINSHIP"
+ },
+ {
+   "id": 136,
+   "IB_Symbol": "CONSOFINV",
+   "NSE_Symbol": "CONSOFINVT"
+ },
+ {
+   "id": 137,
+   "IB_Symbol": "CONTI",
+   "NSE_Symbol": "CONTI_SM"
+ },
+ {
+   "id": 138,
+   "IB_Symbol": "CORALFINA",
+   "NSE_Symbol": "CORALFINAC"
+ },
+ {
+   "id": 139,
+   "IB_Symbol": "CORDSCABL",
+   "NSE_Symbol": "CORDSCABLE"
+ },
+ {
+   "id": 140,
+   "IB_Symbol": "COROMANDE",
+   "NSE_Symbol": "COROMANDEL"
+ },
+ {
+   "id": 141,
+   "IB_Symbol": "COSMOFILM",
+   "NSE_Symbol": "COSMOFILMS"
+ },
+ {
+   "id": 142,
+   "IB_Symbol": "COXKINGS",
+   "NSE_Symbol": "COX&KINGS"
+ },
+ {
+   "id": 143,
+   "IB_Symbol": "CREATIVE",
+   "NSE_Symbol": "CREATIVE_SM"
+ },
+ {
+   "id": 144,
+   "IB_Symbol": "CREATIVEY",
+   "NSE_Symbol": "CREATIVEYE"
+ },
+ {
+   "id": 145,
+   "IB_Symbol": "CROWN",
+   "NSE_Symbol": "CROWN_SM"
+ },
+ {
+   "id": 146,
+   "IB_Symbol": "CUMMINSIN",
+   "NSE_Symbol": "CUMMINSIND"
+ },
+ {
+   "id": 147,
+   "IB_Symbol": "CURATECH",
+   "NSE_Symbol": "CURATECH_BE"
+ },
+ {
+   "id": 148,
+   "IB_Symbol": "CYBERMEDI",
+   "NSE_Symbol": "CYBERMEDIA"
+ },
+ {
+   "id": 149,
+   "IB_Symbol": "DAMODARIN",
+   "NSE_Symbol": "DAMODARIND"
+ },
+ {
+   "id": 150,
+   "IB_Symbol": "DANGEE",
+   "NSE_Symbol": "DANGEE_SM"
+ },
+ {
+   "id": 151,
+   "IB_Symbol": "DATAMATIC",
+   "NSE_Symbol": "DATAMATICS"
+ },
+ {
+   "id": 152,
+   "IB_Symbol": "DBREALTY",
+   "NSE_Symbol": "DBREALTY_BE"
+ },
+ {
+   "id": 153,
+   "IB_Symbol": "DBSTOCKBR",
+   "NSE_Symbol": "DBSTOCKBRO"
+ },
+ {
+   "id": 154,
+   "IB_Symbol": "DCMFINSER",
+   "NSE_Symbol": "DCMFINSERV"
+ },
+ {
+   "id": 155,
+   "IB_Symbol": "DCMSHRIRA",
+   "NSE_Symbol": "DCMSHRIRAM"
+ },
+ {
+   "id": 156,
+   "IB_Symbol": "DEEPAKFER",
+   "NSE_Symbol": "DEEPAKFERT"
+ },
+ {
+   "id": 157,
+   "IB_Symbol": "DELTAMAGN",
+   "NSE_Symbol": "DELTAMAGNT"
+ },
+ {
+   "id": 158,
+   "IB_Symbol": "DEVIT",
+   "NSE_Symbol": "DEVIT_SM"
+ },
+ {
+   "id": 159,
+   "IB_Symbol": "DHAMPURSU",
+   "NSE_Symbol": "DHAMPURSUG"
+ },
+ {
+   "id": 160,
+   "IB_Symbol": "DIAPOWER",
+   "NSE_Symbol": "DIAPOWER_BZ"
+ },
+ {
+   "id": 161,
+   "IB_Symbol": "DLINKINDI",
+   "NSE_Symbol": "DLINKINDIA"
+ },
+ {
+   "id": 162,
+   "IB_Symbol": "DNAMEDIA",
+   "NSE_Symbol": "DNAMEDIA_BE"
+ },
+ {
+   "id": 163,
+   "IB_Symbol": "DOLPHINOF",
+   "NSE_Symbol": "DOLPHINOFF"
+ },
+ {
+   "id": 164,
+   "IB_Symbol": "DPABHUSHA",
+   "NSE_Symbol": "DPABHUSHAN_SM"
+ },
+ {
+   "id": 165,
+   "IB_Symbol": "DPWIRES",
+   "NSE_Symbol": "DPWIRES_SM"
+ },
+ {
+   "id": 166,
+   "IB_Symbol": "DREDGECOR",
+   "NSE_Symbol": "DREDGECORP"
+ },
+ {
+   "id": 167,
+   "IB_Symbol": "DRL",
+   "NSE_Symbol": "DRL_SM"
+ },
+ {
+   "id": 168,
+   "IB_Symbol": "DRSDILIP",
+   "NSE_Symbol": "DRSDILIP_SM"
+ },
+ {
+   "id": 169,
+   "IB_Symbol": "DSML",
+   "NSE_Symbol": "DSML_SM"
+ },
+ {
+   "id": 170,
+   "IB_Symbol": "DYNAMATEC",
+   "NSE_Symbol": "DYNAMATECH"
+ },
+ {
+   "id": 171,
+   "IB_Symbol": "E2E",
+   "NSE_Symbol": "E2E_SM"
+ },
+ {
+   "id": 172,
+   "IB_Symbol": "EASTSILK",
+   "NSE_Symbol": "EASTSILK_BE"
+ },
+ {
+   "id": 173,
+   "IB_Symbol": "EASUNREYR",
+   "NSE_Symbol": "EASUNREYRL"
+ },
+ {
+   "id": 174,
+   "IB_Symbol": "EDUCOMP",
+   "NSE_Symbol": "EDUCOMP_BZ"
+ },
+ {
+   "id": 175,
+   "IB_Symbol": "EIFFL",
+   "NSE_Symbol": "EIFFL_SM"
+ },
+ {
+   "id": 176,
+   "IB_Symbol": "EIHAHOTEL",
+   "NSE_Symbol": "EIHAHOTELS"
+ },
+ {
+   "id": 177,
+   "IB_Symbol": "EIMCOELEC",
+   "NSE_Symbol": "EIMCOELECO"
+ },
+ {
+   "id": 178,
+   "IB_Symbol": "EMKAYTOOL",
+   "NSE_Symbol": "EMKAYTOOLS_SM"
+ },
+ {
+   "id": 179,
+   "IB_Symbol": "ENGINERSI",
+   "NSE_Symbol": "ENGINERSIN"
+ },
+ {
+   "id": 180,
+   "IB_Symbol": "ESSARSHPN",
+   "NSE_Symbol": "ESSARSHPNG"
+ },
+ {
+   "id": 181,
+   "IB_Symbol": "EUROCERA",
+   "NSE_Symbol": "EUROCERA_BE"
+ },
+ {
+   "id": 182,
+   "IB_Symbol": "EUROMULTI",
+   "NSE_Symbol": "EUROMULTI_BE"
+ },
+ {
+   "id": 183,
+   "IB_Symbol": "EUROTEXIN",
+   "NSE_Symbol": "EUROTEXIND"
+ },
+ {
+   "id": 184,
+   "IB_Symbol": "EVERESTIN",
+   "NSE_Symbol": "EVERESTIND"
+ },
+ {
+   "id": 185,
+   "IB_Symbol": "EXCELINDU",
+   "NSE_Symbol": "EXCELINDUS"
+ },
+ {
+   "id": 186,
+   "IB_Symbol": "FCSSOFT",
+   "NSE_Symbol": "FCSSOFT_BE"
+ },
+ {
+   "id": 187,
+   "IB_Symbol": "FEDERALBN",
+   "NSE_Symbol": "FEDERALBNK"
+ },
+ {
+   "id": 188,
+   "IB_Symbol": "FELIX",
+   "NSE_Symbol": "FELIX_SM"
+ },
+ {
+   "id": 189,
+   "IB_Symbol": "FIVECORE",
+   "NSE_Symbol": "FIVECORE_SM"
+ },
+ {
+   "id": 190,
+   "IB_Symbol": "FOCUS",
+   "NSE_Symbol": "FOCUS_SM"
+ },
+ {
+   "id": 191,
+   "IB_Symbol": "FOURTHDIM",
+   "NSE_Symbol": "FOURTHDIM_SM"
+ },
+ {
+   "id": 192,
+   "IB_Symbol": "GALAXYSUR",
+   "NSE_Symbol": "GALAXYSURF"
+ },
+ {
+   "id": 193,
+   "IB_Symbol": "GAMMNINFR",
+   "NSE_Symbol": "GAMMNINFRA"
+ },
+ {
+   "id": 194,
+   "IB_Symbol": "GANDHITUB",
+   "NSE_Symbol": "GANDHITUBE"
+ },
+ {
+   "id": 195,
+   "IB_Symbol": "GANESHHOU",
+   "NSE_Symbol": "GANESHHOUC"
+ },
+ {
+   "id": 196,
+   "IB_Symbol": "GANGAFORG",
+   "NSE_Symbol": "GANGAFORGE_SM"
+ },
+ {
+   "id": 197,
+   "IB_Symbol": "GANGESSEC",
+   "NSE_Symbol": "GANGESSECU"
+ },
+ {
+   "id": 198,
+   "IB_Symbol": "GARDENSIL",
+   "NSE_Symbol": "GARDENSILK"
+ },
+ {
+   "id": 199,
+   "IB_Symbol": "GEEKAYWIR",
+   "NSE_Symbol": "GEEKAYWIRE_SM"
+ },
+ {
+   "id": 200,
+   "IB_Symbol": "GEMINI",
+   "NSE_Symbol": "GEMINI_BZ"
+ },
+ {
+   "id": 201,
+   "IB_Symbol": "GENUSPAPE",
+   "NSE_Symbol": "GENUSPAPER"
+ },
+ {
+   "id": 202,
+   "IB_Symbol": "GENUSPOWE",
+   "NSE_Symbol": "GENUSPOWER"
+ },
+ {
+   "id": 203,
+   "IB_Symbol": "GETD",
+   "NSE_Symbol": "GET&D"
+ },
+ {
+   "id": 204,
+   "IB_Symbol": "GICL",
+   "NSE_Symbol": "GICL_SM"
+ },
+ {
+   "id": 205,
+   "IB_Symbol": "GILLANDER",
+   "NSE_Symbol": "GILLANDERS"
+ },
+ {
+   "id": 206,
+   "IB_Symbol": "GIRIRAJ",
+   "NSE_Symbol": "GIRIRAJ_SM"
+ },
+ {
+   "id": 207,
+   "IB_Symbol": "GISOLUTIO",
+   "NSE_Symbol": "GISOLUTION"
+ },
+ {
+   "id": 208,
+   "IB_Symbol": "GKWLIMITE",
+   "NSE_Symbol": "GKWLIMITED"
+ },
+ {
+   "id": 209,
+   "IB_Symbol": "GLOBAL",
+   "NSE_Symbol": "GLOBAL_SM"
+ },
+ {
+   "id": 210,
+   "IB_Symbol": "GLOBALVEC",
+   "NSE_Symbol": "GLOBALVECT"
+ },
+ {
+   "id": 211,
+   "IB_Symbol": "GLOBE",
+   "NSE_Symbol": "GLOBE_SM"
+ },
+ {
+   "id": 212,
+   "IB_Symbol": "GMMPFAUDL",
+   "NSE_Symbol": "GMMPFAUDLR"
+ },
+ {
+   "id": 213,
+   "IB_Symbol": "GODFRYPHL",
+   "NSE_Symbol": "GODFRYPHLP"
+ },
+ {
+   "id": 214,
+   "IB_Symbol": "GODHA",
+   "NSE_Symbol": "GODHA_SM"
+ },
+ {
+   "id": 215,
+   "IB_Symbol": "GODREJAGR",
+   "NSE_Symbol": "GODREJAGRO"
+ },
+ {
+   "id": 216,
+   "IB_Symbol": "GODREJPRO",
+   "NSE_Symbol": "GODREJPROP"
+ },
+ {
+   "id": 217,
+   "IB_Symbol": "GOENKA",
+   "NSE_Symbol": "GOENKA_BZ"
+ },
+ {
+   "id": 218,
+   "IB_Symbol": "GOKUL",
+   "NSE_Symbol": "GOKUL_BE"
+ },
+ {
+   "id": 219,
+   "IB_Symbol": "GOKULAGRO",
+   "NSE_Symbol": "GOKULAGRO_BE"
+ },
+ {
+   "id": 220,
+   "IB_Symbol": "GOLDSTAR",
+   "NSE_Symbol": "GOLDSTAR_SM"
+ },
+ {
+   "id": 221,
+   "IB_Symbol": "GREAVESCO",
+   "NSE_Symbol": "GREAVESCOT"
+ },
+ {
+   "id": 222,
+   "IB_Symbol": "GREENPOWE",
+   "NSE_Symbol": "GREENPOWER"
+ },
+ {
+   "id": 223,
+   "IB_Symbol": "GRETEX",
+   "NSE_Symbol": "GRETEX_SM"
+ },
+ {
+   "id": 224,
+   "IB_Symbol": "GSCLCEMEN",
+   "NSE_Symbol": "GSCLCEMENT"
+ },
+ {
+   "id": 225,
+   "IB_Symbol": "GTL",
+   "NSE_Symbol": "GTL_BE"
+ },
+ {
+   "id": 226,
+   "IB_Symbol": "GTNTEX",
+   "NSE_Symbol": "GTNTEX_BE"
+ },
+ {
+   "id": 227,
+   "IB_Symbol": "GULFOILLU",
+   "NSE_Symbol": "GULFOILLUB"
+ },
+ {
+   "id": 228,
+   "IB_Symbol": "HARITASEA",
+   "NSE_Symbol": "HARITASEAT"
+ },
+ {
+   "id": 229,
+   "IB_Symbol": "HARRMALAY",
+   "NSE_Symbol": "HARRMALAYA"
+ },
+ {
+   "id": 230,
+   "IB_Symbol": "HATSUN1",
+   "NSE_Symbol": "HATSUN_E1"
+ },
+ {
+   "id": 231,
+   "IB_Symbol": "HDFCMFGET",
+   "NSE_Symbol": "HDFCMFGETF"
+ },
+ {
+   "id": 232,
+   "IB_Symbol": "HDFCNIFET",
+   "NSE_Symbol": "HDFCNIFETF"
+ },
+ {
+   "id": 233,
+   "IB_Symbol": "HDFCSENET",
+   "NSE_Symbol": "HDFCSENETF"
+ },
+ {
+   "id": 234,
+   "IB_Symbol": "HEIDELBER",
+   "NSE_Symbol": "HEIDELBERG"
+ },
+ {
+   "id": 235,
+   "IB_Symbol": "HERITGFOO",
+   "NSE_Symbol": "HERITGFOOD"
+ },
+ {
+   "id": 236,
+   "IB_Symbol": "HEROMOTOC",
+   "NSE_Symbol": "HEROMOTOCO"
+ },
+ {
+   "id": 237,
+   "IB_Symbol": "HEXATRADE",
+   "NSE_Symbol": "HEXATRADEX_BE"
+ },
+ {
+   "id": 238,
+   "IB_Symbol": "HIGHGROUN",
+   "NSE_Symbol": "HIGHGROUND"
+ },
+ {
+   "id": 239,
+   "IB_Symbol": "HIMATSEID",
+   "NSE_Symbol": "HIMATSEIDE"
+ },
+ {
+   "id": 240,
+   "IB_Symbol": "HINDCOMPO",
+   "NSE_Symbol": "HINDCOMPOS"
+ },
+ {
+   "id": 241,
+   "IB_Symbol": "HINDCON",
+   "NSE_Symbol": "HINDCON_SM"
+ },
+ {
+   "id": 242,
+   "IB_Symbol": "HINDCOPPE",
+   "NSE_Symbol": "HINDCOPPER"
+ },
+ {
+   "id": 243,
+   "IB_Symbol": "HINDMOTOR",
+   "NSE_Symbol": "HINDMOTORS"
+ },
+ {
+   "id": 244,
+   "IB_Symbol": "HINDNATGL",
+   "NSE_Symbol": "HINDNATGLS"
+ },
+ {
+   "id": 245,
+   "IB_Symbol": "HINDOILEX",
+   "NSE_Symbol": "HINDOILEXP"
+ },
+ {
+   "id": 246,
+   "IB_Symbol": "HINDSYNTE",
+   "NSE_Symbol": "HINDSYNTEX"
+ },
+ {
+   "id": 247,
+   "IB_Symbol": "HINDUJAVE",
+   "NSE_Symbol": "HINDUJAVEN"
+ },
+ {
+   "id": 248,
+   "IB_Symbol": "HINDUNILV",
+   "NSE_Symbol": "HINDUNILVR"
+ },
+ {
+   "id": 249,
+   "IB_Symbol": "HISARMETA",
+   "NSE_Symbol": "HISARMETAL"
+ },
+ {
+   "id": 250,
+   "IB_Symbol": "HITECHCOR",
+   "NSE_Symbol": "HITECHCORP"
+ },
+ {
+   "id": 251,
+   "IB_Symbol": "HITECHGEA",
+   "NSE_Symbol": "HITECHGEAR"
+ },
+ {
+   "id": 252,
+   "IB_Symbol": "HMT",
+   "NSE_Symbol": "HMT_BZ"
+ },
+ {
+   "id": 253,
+   "IB_Symbol": "HNGSNGBEE",
+   "NSE_Symbol": "HNGSNGBEES"
+ },
+ {
+   "id": 254,
+   "IB_Symbol": "HONDAPOWE",
+   "NSE_Symbol": "HONDAPOWER"
+ },
+ {
+   "id": 255,
+   "IB_Symbol": "HOTELRUGB",
+   "NSE_Symbol": "HOTELRUGBY_BE"
+ },
+ {
+   "id": 256,
+   "IB_Symbol": "HUSYSLTD",
+   "NSE_Symbol": "HUSYSLTD_SM"
+ },
+ {
+   "id": 257,
+   "IB_Symbol": "IBULHSGFI",
+   "NSE_Symbol": "IBULHSGFIN"
+ },
+ {
+   "id": 258,
+   "IB_Symbol": "IBVENTURE",
+   "NSE_Symbol": "IBVENTURES"
+ },
+ {
+   "id": 259,
+   "IB_Symbol": "ICEMAKE",
+   "NSE_Symbol": "ICEMAKE_SM"
+ },
+ {
+   "id": 260,
+   "IB_Symbol": "ICICILOVO",
+   "NSE_Symbol": "ICICILOVOL"
+ },
+ {
+   "id": 261,
+   "IB_Symbol": "ICICINF10",
+   "NSE_Symbol": "ICICINF100"
+ },
+ {
+   "id": 262,
+   "IB_Symbol": "ICICINIFT",
+   "NSE_Symbol": "ICICINIFTY"
+ },
+ {
+   "id": 263,
+   "IB_Symbol": "ICICINXT5",
+   "NSE_Symbol": "ICICINXT50"
+ },
+ {
+   "id": 264,
+   "IB_Symbol": "ICICIPRUL",
+   "NSE_Symbol": "ICICIPRULI"
+ },
+ {
+   "id": 265,
+   "IB_Symbol": "ICICISENS",
+   "NSE_Symbol": "ICICISENSX"
+ },
+ {
+   "id": 266,
+   "IB_Symbol": "IDFCFIRST",
+   "NSE_Symbol": "IDFCFIRSTB"
+ },
+ {
+   "id": 267,
+   "IB_Symbol": "IDFNIFTYE",
+   "NSE_Symbol": "IDFNIFTYET"
+ },
+ {
+   "id": 268,
+   "IB_Symbol": "ILFSENGG",
+   "NSE_Symbol": "IL&FSENGG_BE"
+ },
+ {
+   "id": 269,
+   "IB_Symbol": "ILFSTRANS",
+   "NSE_Symbol": "IL&FSTRANS"
+ },
+ {
+   "id": 270,
+   "IB_Symbol": "IMPEXFERR",
+   "NSE_Symbol": "IMPEXFERRO_BE"
+ },
+ {
+   "id": 271,
+   "IB_Symbol": "INDIAGLYC",
+   "NSE_Symbol": "INDIAGLYCO"
+ },
+ {
+   "id": 272,
+   "IB_Symbol": "INDIANCAR",
+   "NSE_Symbol": "INDIANCARD"
+ },
+ {
+   "id": 273,
+   "IB_Symbol": "INDIANHUM",
+   "NSE_Symbol": "INDIANHUME"
+ },
+ {
+   "id": 274,
+   "IB_Symbol": "INDIGRID",
+   "NSE_Symbol": "INDIGRID_IV"
+ },
+ {
+   "id": 275,
+   "IB_Symbol": "INDINFR",
+   "NSE_Symbol": "INDINFR_IV"
+ },
+ {
+   "id": 276,
+   "IB_Symbol": "INDORAMA",
+   "NSE_Symbol": "INDORAMA_BE"
+ },
+ {
+   "id": 277,
+   "IB_Symbol": "INDOSOLAR",
+   "NSE_Symbol": "INDOSOLAR_BE"
+ },
+ {
+   "id": 278,
+   "IB_Symbol": "INDRAMEDC",
+   "NSE_Symbol": "INDRAMEDCO"
+ },
+ {
+   "id": 279,
+   "IB_Symbol": "INDSWFTLA",
+   "NSE_Symbol": "INDSWFTLAB"
+ },
+ {
+   "id": 280,
+   "IB_Symbol": "INDSWFTLT",
+   "NSE_Symbol": "INDSWFTLTD"
+ },
+ {
+   "id": 281,
+   "IB_Symbol": "INDTERRAI",
+   "NSE_Symbol": "INDTERRAIN"
+ },
+ {
+   "id": 282,
+   "IB_Symbol": "INDUSINDB",
+   "NSE_Symbol": "INDUSINDBK"
+ },
+ {
+   "id": 283,
+   "IB_Symbol": "INEOSSTYR",
+   "NSE_Symbol": "INEOSSTYRO"
+ },
+ {
+   "id": 284,
+   "IB_Symbol": "INFOBEAN",
+   "NSE_Symbol": "INFOBEAN_SM"
+ },
+ {
+   "id": 285,
+   "IB_Symbol": "INNOVANA",
+   "NSE_Symbol": "INNOVANA_SM"
+ },
+ {
+   "id": 286,
+   "IB_Symbol": "INNOVATIV",
+   "NSE_Symbol": "INNOVATIVE_SM"
+ },
+ {
+   "id": 287,
+   "IB_Symbol": "INOXLEISU",
+   "NSE_Symbol": "INOXLEISUR"
+ },
+ {
+   "id": 288,
+   "IB_Symbol": "INSECTICI",
+   "NSE_Symbol": "INSECTICID"
+ },
+ {
+   "id": 289,
+   "IB_Symbol": "INSPIRISY",
+   "NSE_Symbol": "INSPIRISYS"
+ },
+ {
+   "id": 290,
+   "IB_Symbol": "INTEGRA",
+   "NSE_Symbol": "INTEGRA_BE"
+ },
+ {
+   "id": 291,
+   "IB_Symbol": "IRBINVIT",
+   "NSE_Symbol": "IRBINVIT_IV"
+ },
+ {
+   "id": 292,
+   "IB_Symbol": "IRISDOREM",
+   "NSE_Symbol": "IRISDOREME_SM"
+ },
+ {
+   "id": 293,
+   "IB_Symbol": "ISMTLTD",
+   "NSE_Symbol": "ISMTLTD_BE"
+ },
+ {
+   "id": 294,
+   "IB_Symbol": "IVRCLINFR",
+   "NSE_Symbol": "IVRCLINFRA"
+ },
+ {
+   "id": 295,
+   "IB_Symbol": "IVZINNIFT",
+   "NSE_Symbol": "IVZINNIFTY"
+ },
+ {
+   "id": 296,
+   "IB_Symbol": "JAGSNPHAR",
+   "NSE_Symbol": "JAGSNPHARM"
+ },
+ {
+   "id": 297,
+   "IB_Symbol": "JAICORPLT",
+   "NSE_Symbol": "JAICORPLTD"
+ },
+ {
+   "id": 298,
+   "IB_Symbol": "JAIHINDPR",
+   "NSE_Symbol": "JAIHINDPRO_BE"
+ },
+ {
+   "id": 299,
+   "IB_Symbol": "JAINSTUDI",
+   "NSE_Symbol": "JAINSTUDIO_BE"
+ },
+ {
+   "id": 300,
+   "IB_Symbol": "JAKHARIA",
+   "NSE_Symbol": "JAKHARIA_SM"
+ },
+ {
+   "id": 301,
+   "IB_Symbol": "JALAN",
+   "NSE_Symbol": "JALAN_SM"
+ },
+ {
+   "id": 302,
+   "IB_Symbol": "KOLTEPATI",
+   "NSE_Symbol": "KOLTEPATIL"
+ },
+ {
+   "id": 303,
+   "IB_Symbol": "KOTAKBKET",
+   "NSE_Symbol": "KOTAKBKETF"
+ },
+ {
+   "id": 304,
+   "IB_Symbol": "KOTAKNIFT",
+   "NSE_Symbol": "KOTAKNIFTY"
+ },
+ {
+   "id": 305,
+   "IB_Symbol": "KOTAKPSUB",
+   "NSE_Symbol": "KOTAKPSUBK"
+ },
+ {
+   "id": 306,
+   "IB_Symbol": "KOTHARIPE",
+   "NSE_Symbol": "KOTHARIPET"
+ },
+ {
+   "id": 307,
+   "IB_Symbol": "KOTHARIPR",
+   "NSE_Symbol": "KOTHARIPRO"
+ },
+ {
+   "id": 308,
+   "IB_Symbol": "KRIDHANIN",
+   "NSE_Symbol": "KRIDHANINF"
+ },
+ {
+   "id": 309,
+   "IB_Symbol": "KRISHANA",
+   "NSE_Symbol": "KRISHANA_SM"
+ },
+ {
+   "id": 310,
+   "IB_Symbol": "KRITIKA",
+   "NSE_Symbol": "KRITIKA_SM"
+ },
+ {
+   "id": 311,
+   "IB_Symbol": "KSERASERA",
+   "NSE_Symbol": "KSERASERA_BE"
+ },
+ {
+   "id": 312,
+   "IB_Symbol": "KSHITIJPO",
+   "NSE_Symbol": "KSHITIJPOL_SM"
+ },
+ {
+   "id": 313,
+   "IB_Symbol": "LAGNAM",
+   "NSE_Symbol": "LAGNAM_SM"
+ },
+ {
+   "id": 314,
+   "IB_Symbol": "LAKPRE",
+   "NSE_Symbol": "LAKPRE_BZ"
+ },
+ {
+   "id": 315,
+   "IB_Symbol": "LAKSHVILA",
+   "NSE_Symbol": "LAKSHVILAS"
+ },
+ {
+   "id": 316,
+   "IB_Symbol": "LALPATHLA",
+   "NSE_Symbol": "LALPATHLAB"
+ },
+ {
+   "id": 317,
+   "IB_Symbol": "LAMBODHAR",
+   "NSE_Symbol": "LAMBODHARA"
+ },
+ {
+   "id": 318,
+   "IB_Symbol": "LASA",
+   "NSE_Symbol": "LASA_BE"
+ },
+ {
+   "id": 319,
+   "IB_Symbol": "LATTEYS",
+   "NSE_Symbol": "LATTEYS_SM"
+ },
+ {
+   "id": 320,
+   "IB_Symbol": "LAURUSLAB",
+   "NSE_Symbol": "LAURUSLABS"
+ },
+ {
+   "id": 321,
+   "IB_Symbol": "LAXMICOT",
+   "NSE_Symbol": "LAXMICOT_SM"
+ },
+ {
+   "id": 322,
+   "IB_Symbol": "LEXUS",
+   "NSE_Symbol": "LEXUS_SM"
+ },
+ {
+   "id": 323,
+   "IB_Symbol": "LFIC",
+   "NSE_Symbol": "LFIC_BE"
+ },
+ {
+   "id": 324,
+   "IB_Symbol": "LGBBROSLT",
+   "NSE_Symbol": "LGBBROSLTD"
+ },
+ {
+   "id": 325,
+   "IB_Symbol": "LIBAS",
+   "NSE_Symbol": "LIBAS_SM"
+ },
+ {
+   "id": 326,
+   "IB_Symbol": "LIBERTSHO",
+   "NSE_Symbol": "LIBERTSHOE"
+ },
+ {
+   "id": 327,
+   "IB_Symbol": "LICNETFGS",
+   "NSE_Symbol": "LICNETFGSC"
+ },
+ {
+   "id": 328,
+   "IB_Symbol": "LICNETFN5",
+   "NSE_Symbol": "LICNETFN50"
+ },
+ {
+   "id": 329,
+   "IB_Symbol": "LICNETFSE",
+   "NSE_Symbol": "LICNETFSEN"
+ },
+ {
+   "id": 330,
+   "IB_Symbol": "LINDEINDI",
+   "NSE_Symbol": "LINDEINDIA"
+ },
+ {
+   "id": 331,
+   "IB_Symbol": "LIQUIDBEE",
+   "NSE_Symbol": "LIQUIDBEES"
+ },
+ {
+   "id": 332,
+   "IB_Symbol": "LOKESHMAC",
+   "NSE_Symbol": "LOKESHMACH"
+ },
+ {
+   "id": 333,
+   "IB_Symbol": "LTFH",
+   "NSE_Symbol": "L&TFH"
+ },
+ {
+   "id": 334,
+   "IB_Symbol": "MACPOWER",
+   "NSE_Symbol": "MACPOWER_SM"
+ },
+ {
+   "id": 335,
+   "IB_Symbol": "MADRASFER",
+   "NSE_Symbol": "MADRASFERT"
+ },
+ {
+   "id": 336,
+   "IB_Symbol": "MAGADSUGA",
+   "NSE_Symbol": "MAGADSUGAR"
+ },
+ {
+   "id": 337,
+   "IB_Symbol": "MAHESHWAR",
+   "NSE_Symbol": "MAHESHWARI_SM"
+ },
+ {
+   "id": 338,
+   "IB_Symbol": "MAHICKRA",
+   "NSE_Symbol": "MAHICKRA_SM"
+ },
+ {
+   "id": 339,
+   "IB_Symbol": "MAHSCOOTE",
+   "NSE_Symbol": "MAHSCOOTER"
+ },
+ {
+   "id": 340,
+   "IB_Symbol": "MAHSEAMLE",
+   "NSE_Symbol": "MAHSEAMLES"
+ },
+ {
+   "id": 341,
+   "IB_Symbol": "MAITHANAL",
+   "NSE_Symbol": "MAITHANALL"
+ },
+ {
+   "id": 342,
+   "IB_Symbol": "MANAKALUC",
+   "NSE_Symbol": "MANAKALUCO"
+ },
+ {
+   "id": 343,
+   "IB_Symbol": "MANAKSTEE",
+   "NSE_Symbol": "MANAKSTEEL"
+ },
+ {
+   "id": 344,
+   "IB_Symbol": "MANALIPET",
+   "NSE_Symbol": "MANALIPETC"
+ },
+ {
+   "id": 345,
+   "IB_Symbol": "MANAPPURA",
+   "NSE_Symbol": "MANAPPURAM"
+ },
+ {
+   "id": 346,
+   "IB_Symbol": "MANAV",
+   "NSE_Symbol": "MANAV_SM"
+ },
+ {
+   "id": 347,
+   "IB_Symbol": "JASH",
+   "NSE_Symbol": "JASH_SM"
+ },
+ {
+   "id": 348,
+   "IB_Symbol": "JAYBARMAR",
+   "NSE_Symbol": "JAYBARMARU"
+ },
+ {
+   "id": 349,
+   "IB_Symbol": "JAYNECOIN",
+   "NSE_Symbol": "JAYNECOIND_BE"
+ },
+ {
+   "id": 350,
+   "IB_Symbol": "JAYSREETE",
+   "NSE_Symbol": "JAYSREETEA"
+ },
+ {
+   "id": 351,
+   "IB_Symbol": "JBCHEPHAR",
+   "NSE_Symbol": "JBCHEPHARM"
+ },
+ {
+   "id": 352,
+   "IB_Symbol": "JETAIRWAY",
+   "NSE_Symbol": "JETAIRWAYS"
+ },
+ {
+   "id": 353,
+   "IB_Symbol": "JETFREIGH",
+   "NSE_Symbol": "JETFREIGHT_SM"
+ },
+ {
+   "id": 354,
+   "IB_Symbol": "JETKNIT",
+   "NSE_Symbol": "JETKNIT_SM"
+ },
+ {
+   "id": 355,
+   "IB_Symbol": "JINDALPHO",
+   "NSE_Symbol": "JINDALPHOT"
+ },
+ {
+   "id": 356,
+   "IB_Symbol": "JINDALPOL",
+   "NSE_Symbol": "JINDALPOLY"
+ },
+ {
+   "id": 357,
+   "IB_Symbol": "JINDALSTE",
+   "NSE_Symbol": "JINDALSTEL"
+ },
+ {
+   "id": 358,
+   "IB_Symbol": "JINDCOT",
+   "NSE_Symbol": "JINDCOT_BE"
+ },
+ {
+   "id": 359,
+   "IB_Symbol": "JISLDVREQ",
+   "NSE_Symbol": "JISLDVREQS"
+ },
+ {
+   "id": 360,
+   "IB_Symbol": "JISLJALEQ",
+   "NSE_Symbol": "JISLJALEQS"
+ },
+ {
+   "id": 361,
+   "IB_Symbol": "JITFINFRA",
+   "NSE_Symbol": "JITFINFRA_BE"
+ },
+ {
+   "id": 362,
+   "IB_Symbol": "JKBANK",
+   "NSE_Symbol": "J&KBANK"
+ },
+ {
+   "id": 363,
+   "IB_Symbol": "JMCPROJEC",
+   "NSE_Symbol": "JMCPROJECT"
+ },
+ {
+   "id": 364,
+   "IB_Symbol": "JMFINANCI",
+   "NSE_Symbol": "JMFINANCIL"
+ },
+ {
+   "id": 365,
+   "IB_Symbol": "JMTAUTOLT",
+   "NSE_Symbol": "JMTAUTOLTD"
+ },
+ {
+   "id": 366,
+   "IB_Symbol": "JPASSOCIA",
+   "NSE_Symbol": "JPASSOCIAT"
+ },
+ {
+   "id": 367,
+   "IB_Symbol": "JPINFRATE",
+   "NSE_Symbol": "JPINFRATEC"
+ },
+ {
+   "id": 368,
+   "IB_Symbol": "JPOLYINVS",
+   "NSE_Symbol": "JPOLYINVST"
+ },
+ {
+   "id": 369,
+   "IB_Symbol": "JTEKTINDI",
+   "NSE_Symbol": "JTEKTINDIA"
+ },
+ {
+   "id": 370,
+   "IB_Symbol": "JUNIORBEE",
+   "NSE_Symbol": "JUNIORBEES"
+ },
+ {
+   "id": 371,
+   "IB_Symbol": "JVLAGRO",
+   "NSE_Symbol": "JVLAGRO_BZ"
+ },
+ {
+   "id": 372,
+   "IB_Symbol": "JYOTISTRU",
+   "NSE_Symbol": "JYOTISTRUC_BZ"
+ },
+ {
+   "id": 373,
+   "IB_Symbol": "KABRAEXTR",
+   "NSE_Symbol": "KABRAEXTRU"
+ },
+ {
+   "id": 374,
+   "IB_Symbol": "KAJARIACE",
+   "NSE_Symbol": "KAJARIACER"
+ },
+ {
+   "id": 375,
+   "IB_Symbol": "KALPATPOW",
+   "NSE_Symbol": "KALPATPOWR"
+ },
+ {
+   "id": 376,
+   "IB_Symbol": "KALYANIFR",
+   "NSE_Symbol": "KALYANIFRG_BE"
+ },
+ {
+   "id": 377,
+   "IB_Symbol": "KAMATHOTE",
+   "NSE_Symbol": "KAMATHOTEL"
+ },
+ {
+   "id": 378,
+   "IB_Symbol": "KANORICHE",
+   "NSE_Symbol": "KANORICHEM"
+ },
+ {
+   "id": 379,
+   "IB_Symbol": "KAPSTON",
+   "NSE_Symbol": "KAPSTON_SM"
+ },
+ {
+   "id": 380,
+   "IB_Symbol": "KARURVYSY",
+   "NSE_Symbol": "KARURVYSYA"
+ },
+ {
+   "id": 381,
+   "IB_Symbol": "KAVVERITE",
+   "NSE_Symbol": "KAVVERITEL"
+ },
+ {
+   "id": 382,
+   "IB_Symbol": "KEERTI",
+   "NSE_Symbol": "KEERTI_SM"
+ },
+ {
+   "id": 383,
+   "IB_Symbol": "KELLTONTE",
+   "NSE_Symbol": "KELLTONTEC_BE"
+ },
+ {
+   "id": 384,
+   "IB_Symbol": "KERNEX",
+   "NSE_Symbol": "KERNEX_BE"
+ },
+ {
+   "id": 385,
+   "IB_Symbol": "KESORAMIN",
+   "NSE_Symbol": "KESORAMIND"
+ },
+ {
+   "id": 386,
+   "IB_Symbol": "KEYCORPSE",
+   "NSE_Symbol": "KEYCORPSER"
+ },
+ {
+   "id": 387,
+   "IB_Symbol": "KGL",
+   "NSE_Symbol": "KGL_BE"
+ },
+ {
+   "id": 388,
+   "IB_Symbol": "KHAITANLT",
+   "NSE_Symbol": "KHAITANLTD_BE"
+ },
+ {
+   "id": 389,
+   "IB_Symbol": "KHANDSE",
+   "NSE_Symbol": "KHANDSE_BE"
+ },
+ {
+   "id": 390,
+   "IB_Symbol": "KIRLOSBRO",
+   "NSE_Symbol": "KIRLOSBROS"
+ },
+ {
+   "id": 391,
+   "IB_Symbol": "KKVAPOW",
+   "NSE_Symbol": "KKVAPOW_SM"
+ },
+ {
+   "id": 392,
+   "IB_Symbol": "KOKUYOCML",
+   "NSE_Symbol": "KOKUYOCMLN"
+ },
+ {
+   "id": 393,
+   "IB_Symbol": "MANGCHEFE",
+   "NSE_Symbol": "MANGCHEFER"
+ },
+ {
+   "id": 394,
+   "IB_Symbol": "MANGTIMBE",
+   "NSE_Symbol": "MANGTIMBER"
+ },
+ {
+   "id": 395,
+   "IB_Symbol": "MARINE",
+   "NSE_Symbol": "MARINE_SM"
+ },
+ {
+   "id": 396,
+   "IB_Symbol": "MARSHALL",
+   "NSE_Symbol": "MARSHALL_SM"
+ },
+ {
+   "id": 397,
+   "IB_Symbol": "MBAPL",
+   "NSE_Symbol": "MBAPL_SM"
+ },
+ {
+   "id": 398,
+   "IB_Symbol": "MBECL",
+   "NSE_Symbol": "MBECL_BE"
+ },
+ {
+   "id": 399,
+   "IB_Symbol": "MCDHOLDIN",
+   "NSE_Symbol": "MCDHOLDING"
+ },
+ {
+   "id": 400,
+   "IB_Symbol": "MCDOWELL-",
+   "NSE_Symbol": "MCDOWELL-N"
+ },
+ {
+   "id": 401,
+   "IB_Symbol": "MCL",
+   "NSE_Symbol": "MCL_SM"
+ },
+ {
+   "id": 402,
+   "IB_Symbol": "MCLEODRUS",
+   "NSE_Symbol": "MCLEODRUSS"
+ },
+ {
+   "id": 403,
+   "IB_Symbol": "MDL",
+   "NSE_Symbol": "MDL_SM"
+ },
+ {
+   "id": 404,
+   "IB_Symbol": "MEGASOFT",
+   "NSE_Symbol": "MEGASOFT_BE"
+ },
+ {
+   "id": 405,
+   "IB_Symbol": "MELSTAR",
+   "NSE_Symbol": "MELSTAR_BE"
+ },
+ {
+   "id": 406,
+   "IB_Symbol": "METALFORG",
+   "NSE_Symbol": "METALFORGE"
+ },
+ {
+   "id": 407,
+   "IB_Symbol": "METKORE",
+   "NSE_Symbol": "METKORE_BE"
+ },
+ {
+   "id": 408,
+   "IB_Symbol": "MHHL",
+   "NSE_Symbol": "MHHL_SM"
+ },
+ {
+   "id": 409,
+   "IB_Symbol": "MILTON",
+   "NSE_Symbol": "MILTON_SM"
+ },
+ {
+   "id": 410,
+   "IB_Symbol": "MIRCELECT",
+   "NSE_Symbol": "MIRCELECTR"
+ },
+ {
+   "id": 411,
+   "IB_Symbol": "MITCON",
+   "NSE_Symbol": "MITCON_SM"
+ },
+ {
+   "id": 412,
+   "IB_Symbol": "MITTAL",
+   "NSE_Symbol": "MITTAL_SM"
+ },
+ {
+   "id": 413,
+   "IB_Symbol": "MKPL",
+   "NSE_Symbol": "MKPL_SM"
+ },
+ {
+   "id": 414,
+   "IB_Symbol": "MM",
+   "NSE_Symbol": "M&M"
+ },
+ {
+   "id": 415,
+   "IB_Symbol": "MMFIN",
+   "NSE_Symbol": "M&MFIN"
+ },
+ {
+   "id": 416,
+   "IB_Symbol": "MMP",
+   "NSE_Symbol": "MMP_SM"
+ },
+ {
+   "id": 417,
+   "IB_Symbol": "MOKSH",
+   "NSE_Symbol": "MOKSH_SM"
+ },
+ {
+   "id": 418,
+   "IB_Symbol": "MONTECARL",
+   "NSE_Symbol": "MONTECARLO"
+ },
+ {
+   "id": 419,
+   "IB_Symbol": "MOREPENLA",
+   "NSE_Symbol": "MOREPENLAB"
+ },
+ {
+   "id": 420,
+   "IB_Symbol": "MOTHERSUM",
+   "NSE_Symbol": "MOTHERSUMI"
+ },
+ {
+   "id": 421,
+   "IB_Symbol": "MOTILALOF",
+   "NSE_Symbol": "MOTILALOFS"
+ },
+ {
+   "id": 422,
+   "IB_Symbol": "MOTOGENFI",
+   "NSE_Symbol": "MOTOGENFIN"
+ },
+ {
+   "id": 423,
+   "IB_Symbol": "MPTODAY",
+   "NSE_Symbol": "MPTODAY_SM"
+ },
+ {
+   "id": 424,
+   "IB_Symbol": "MUKANDENG",
+   "NSE_Symbol": "MUKANDENGG"
+ },
+ {
+   "id": 425,
+   "IB_Symbol": "MUNJALSHO",
+   "NSE_Symbol": "MUNJALSHOW"
+ },
+ {
+   "id": 426,
+   "IB_Symbol": "MUTHOOTCA",
+   "NSE_Symbol": "MUTHOOTCAP"
+ },
+ {
+   "id": 427,
+   "IB_Symbol": "MUTHOOTFI",
+   "NSE_Symbol": "MUTHOOTFIN"
+ },
+ {
+   "id": 428,
+   "IB_Symbol": "NAGREEKCA",
+   "NSE_Symbol": "NAGREEKCAP"
+ },
+ {
+   "id": 429,
+   "IB_Symbol": "NAGREEKEX",
+   "NSE_Symbol": "NAGREEKEXP"
+ },
+ {
+   "id": 430,
+   "IB_Symbol": "NAHARINDU",
+   "NSE_Symbol": "NAHARINDUS"
+ },
+ {
+   "id": 431,
+   "IB_Symbol": "NAHARSPIN",
+   "NSE_Symbol": "NAHARSPING"
+ },
+ {
+   "id": 432,
+   "IB_Symbol": "NANDANI",
+   "NSE_Symbol": "NANDANI_SM"
+ },
+ {
+   "id": 433,
+   "IB_Symbol": "NARMADA",
+   "NSE_Symbol": "NARMADA_SM"
+ },
+ {
+   "id": 434,
+   "IB_Symbol": "NATCOPHAR",
+   "NSE_Symbol": "NATCOPHARM"
+ },
+ {
+   "id": 435,
+   "IB_Symbol": "NATHBIOGE",
+   "NSE_Symbol": "NATHBIOGEN"
+ },
+ {
+   "id": 436,
+   "IB_Symbol": "NATIONALU",
+   "NSE_Symbol": "NATIONALUM"
+ },
+ {
+   "id": 437,
+   "IB_Symbol": "NATNLSTEE",
+   "NSE_Symbol": "NATNLSTEEL"
+ },
+ {
+   "id": 438,
+   "IB_Symbol": "NAVINFLUO",
+   "NSE_Symbol": "NAVINFLUOR"
+ },
+ {
+   "id": 439,
+   "IB_Symbol": "NAVKARCOR",
+   "NSE_Symbol": "NAVKARCORP"
+ },
+ {
+   "id": 440,
+   "IB_Symbol": "NAVNETEDU",
+   "NSE_Symbol": "NAVNETEDUL"
+ },
+ {
+   "id": 441,
+   "IB_Symbol": "NBVENTURE",
+   "NSE_Symbol": "NBVENTURES"
+ },
+ {
+   "id": 442,
+   "IB_Symbol": "NEULANDLA",
+   "NSE_Symbol": "NEULANDLAB"
+ },
+ {
+   "id": 443,
+   "IB_Symbol": "NEXTMEDIA",
+   "NSE_Symbol": "NEXTMEDIA_BE"
+ },
+ {
+   "id": 444,
+   "IB_Symbol": "NILASPACE",
+   "NSE_Symbol": "NILASPACES"
+ },
+ {
+   "id": 445,
+   "IB_Symbol": "NIPPOBATR",
+   "NSE_Symbol": "NIPPOBATRY"
+ },
+ {
+   "id": 446,
+   "IB_Symbol": "NITIRAJ",
+   "NSE_Symbol": "NITIRAJ_SM"
+ },
+ {
+   "id": 447,
+   "IB_Symbol": "NORBTEAEX",
+   "NSE_Symbol": "NORBTEAEXP"
+ },
+ {
+   "id": 448,
+   "IB_Symbol": "NRBBEARIN",
+   "NSE_Symbol": "NRBBEARING"
+ },
+ {
+   "id": 449,
+   "IB_Symbol": "NTL",
+   "NSE_Symbol": "NTL_BE"
+ },
+ {
+   "id": 450,
+   "IB_Symbol": "OBEROIRLT",
+   "NSE_Symbol": "OBEROIRLTY"
+ },
+ {
+   "id": 451,
+   "IB_Symbol": "OILCOUNTU",
+   "NSE_Symbol": "OILCOUNTUB"
+ },
+ {
+   "id": 452,
+   "IB_Symbol": "OMFURN",
+   "NSE_Symbol": "OMFURN_SM"
+ },
+ {
+   "id": 453,
+   "IB_Symbol": "OMKARCHEM",
+   "NSE_Symbol": "OMKARCHEM_BE"
+ },
+ {
+   "id": 454,
+   "IB_Symbol": "ONELIFECA",
+   "NSE_Symbol": "ONELIFECAP_BE"
+ },
+ {
+   "id": 455,
+   "IB_Symbol": "ONEPOINT",
+   "NSE_Symbol": "ONEPOINT_SM"
+ },
+ {
+   "id": 456,
+   "IB_Symbol": "OPAL",
+   "NSE_Symbol": "OPAL_SM"
+ },
+ {
+   "id": 457,
+   "IB_Symbol": "OPTOCIRCU",
+   "NSE_Symbol": "OPTOCIRCUI"
+ },
+ {
+   "id": 458,
+   "IB_Symbol": "ORCHIDPHA",
+   "NSE_Symbol": "ORCHIDPHAR_BZ"
+ },
+ {
+   "id": 459,
+   "IB_Symbol": "ORIENTABR",
+   "NSE_Symbol": "ORIENTABRA"
+ },
+ {
+   "id": 460,
+   "IB_Symbol": "ORIENTALT",
+   "NSE_Symbol": "ORIENTALTL"
+ },
+ {
+   "id": 461,
+   "IB_Symbol": "ORIENTBAN",
+   "NSE_Symbol": "ORIENTBANK"
+ },
+ {
+   "id": 462,
+   "IB_Symbol": "ORIENTBEL",
+   "NSE_Symbol": "ORIENTBELL"
+ },
+ {
+   "id": 463,
+   "IB_Symbol": "ORIENTELE",
+   "NSE_Symbol": "ORIENTELEC"
+ },
+ {
+   "id": 464,
+   "IB_Symbol": "ORISSAMIN",
+   "NSE_Symbol": "ORISSAMINE"
+ },
+ {
+   "id": 465,
+   "IB_Symbol": "ORTEL",
+   "NSE_Symbol": "ORTEL_BE"
+ },
+ {
+   "id": 466,
+   "IB_Symbol": "ORTINLABS",
+   "NSE_Symbol": "ORTINLABSS"
+ },
+ {
+   "id": 467,
+   "IB_Symbol": "OSWALSEED",
+   "NSE_Symbol": "OSWALSEEDS_SM"
+ },
+ {
+   "id": 468,
+   "IB_Symbol": "PALASHSEC",
+   "NSE_Symbol": "PALASHSECU"
+ },
+ {
+   "id": 469,
+   "IB_Symbol": "PANACEABI",
+   "NSE_Symbol": "PANACEABIO"
+ },
+ {
+   "id": 470,
+   "IB_Symbol": "PANACHE",
+   "NSE_Symbol": "PANACHE_SM"
+ },
+ {
+   "id": 471,
+   "IB_Symbol": "PANSARI",
+   "NSE_Symbol": "PANSARI_SM"
+ },
+ {
+   "id": 472,
+   "IB_Symbol": "PARABDRUG",
+   "NSE_Symbol": "PARABDRUGS_BE"
+ },
+ {
+   "id": 473,
+   "IB_Symbol": "PARACABLE",
+   "NSE_Symbol": "PARACABLES"
+ },
+ {
+   "id": 474,
+   "IB_Symbol": "PARIN",
+   "NSE_Symbol": "PARIN_SM"
+ },
+ {
+   "id": 475,
+   "IB_Symbol": "PASHUPATI",
+   "NSE_Symbol": "PASHUPATI_SM"
+ },
+ {
+   "id": 476,
+   "IB_Symbol": "PATSPINLT",
+   "NSE_Symbol": "PATSPINLTD"
+ },
+ {
+   "id": 477,
+   "IB_Symbol": "PCJEWELLE",
+   "NSE_Symbol": "PCJEWELLER"
+ },
+ {
+   "id": 478,
+   "IB_Symbol": "PDMJEPAPE",
+   "NSE_Symbol": "PDMJEPAPER"
+ },
+ {
+   "id": 479,
+   "IB_Symbol": "PDPL",
+   "NSE_Symbol": "PDPL_BE"
+ },
+ {
+   "id": 480,
+   "IB_Symbol": "PENTAGOLD",
+   "NSE_Symbol": "PENTAGOLD_SM"
+ },
+ {
+   "id": 481,
+   "IB_Symbol": "PERFECT",
+   "NSE_Symbol": "PERFECT_SM"
+ },
+ {
+   "id": 482,
+   "IB_Symbol": "PERSISTEN",
+   "NSE_Symbol": "PERSISTENT"
+ },
+ {
+   "id": 483,
+   "IB_Symbol": "PETRONENG",
+   "NSE_Symbol": "PETRONENGG"
+ },
+ {
+   "id": 484,
+   "IB_Symbol": "PHILIPCAR",
+   "NSE_Symbol": "PHILIPCARB"
+ },
+ {
+   "id": 485,
+   "IB_Symbol": "PHOENIXLT",
+   "NSE_Symbol": "PHOENIXLTD"
+ },
+ {
+   "id": 486,
+   "IB_Symbol": "PIDILITIN",
+   "NSE_Symbol": "PIDILITIND"
+ },
+ {
+   "id": 487,
+   "IB_Symbol": "PIGL",
+   "NSE_Symbol": "PIGL_SM"
+ },
+ {
+   "id": 488,
+   "IB_Symbol": "PILANIINV",
+   "NSE_Symbol": "PILANIINVS_BE"
+ },
+ {
+   "id": 489,
+   "IB_Symbol": "PILITA",
+   "NSE_Symbol": "PILITA_BE"
+ },
+ {
+   "id": 490,
+   "IB_Symbol": "PIONEEREM",
+   "NSE_Symbol": "PIONEEREMB"
+ },
+ {
+   "id": 491,
+   "IB_Symbol": "PKTEA",
+   "NSE_Symbol": "PKTEA_BE"
+ },
+ {
+   "id": 492,
+   "IB_Symbol": "PLASTIBLE",
+   "NSE_Symbol": "PLASTIBLEN"
+ },
+ {
+   "id": 493,
+   "IB_Symbol": "PNBHOUSIN",
+   "NSE_Symbol": "PNBHOUSING"
+ },
+ {
+   "id": 494,
+   "IB_Symbol": "PODDARHOU",
+   "NSE_Symbol": "PODDARHOUS"
+ },
+ {
+   "id": 495,
+   "IB_Symbol": "PODDARMEN",
+   "NSE_Symbol": "PODDARMENT"
+ },
+ {
+   "id": 496,
+   "IB_Symbol": "PONNIEROD",
+   "NSE_Symbol": "PONNIERODE"
+ },
+ {
+   "id": 497,
+   "IB_Symbol": "POWERFUL",
+   "NSE_Symbol": "POWERFUL_SM"
+ },
+ {
+   "id": 498,
+   "IB_Symbol": "PRADIP",
+   "NSE_Symbol": "PRADIP_BE"
+ },
+ {
+   "id": 499,
+   "IB_Symbol": "PRAKASHCO",
+   "NSE_Symbol": "PRAKASHCON"
+ },
+ {
+   "id": 500,
+   "IB_Symbol": "PRAKASHST",
+   "NSE_Symbol": "PRAKASHSTL"
+ },
+ {
+   "id": 501,
+   "IB_Symbol": "PREMIERPO",
+   "NSE_Symbol": "PREMIERPOL"
+ },
+ {
+   "id": 502,
+   "IB_Symbol": "PRITI",
+   "NSE_Symbol": "PRITI_SM"
+ },
+ {
+   "id": 503,
+   "IB_Symbol": "PROLIFE",
+   "NSE_Symbol": "PROLIFE_SM"
+ },
+ {
+   "id": 504,
+   "IB_Symbol": "PROSEED",
+   "NSE_Symbol": "PROSEED_BE"
+ },
+ {
+   "id": 505,
+   "IB_Symbol": "PROVOGE",
+   "NSE_Symbol": "PROVOGE_BE"
+ },
+ {
+   "id": 506,
+   "IB_Symbol": "PROZONINT",
+   "NSE_Symbol": "PROZONINTU"
+ },
+ {
+   "id": 507,
+   "IB_Symbol": "PRSMJOHNS",
+   "NSE_Symbol": "PRSMJOHNSN"
+ },
+ {
+   "id": 508,
+   "IB_Symbol": "PSPPROJEC",
+   "NSE_Symbol": "PSPPROJECT"
+ },
+ {
+   "id": 509,
+   "IB_Symbol": "PSUBNKBEE",
+   "NSE_Symbol": "PSUBNKBEES"
+ },
+ {
+   "id": 510,
+   "IB_Symbol": "PULZ",
+   "NSE_Symbol": "PULZ_SM"
+ },
+ {
+   "id": 511,
+   "IB_Symbol": "PUNJABCHE",
+   "NSE_Symbol": "PUNJABCHEM"
+ },
+ {
+   "id": 512,
+   "IB_Symbol": "PUSHPREAL",
+   "NSE_Symbol": "PUSHPREALM_SM"
+ },
+ {
+   "id": 513,
+   "IB_Symbol": "QUINTEGRA",
+   "NSE_Symbol": "QUINTEGRA_BE"
+ },
+ {
+   "id": 514,
+   "IB_Symbol": "RADAAN",
+   "NSE_Symbol": "RADAAN_BE"
+ },
+ {
+   "id": 515,
+   "IB_Symbol": "RAINBOWPA",
+   "NSE_Symbol": "RAINBOWPAP_BE"
+ },
+ {
+   "id": 516,
+   "IB_Symbol": "RAJESHEXP",
+   "NSE_Symbol": "RAJESHEXPO"
+ },
+ {
+   "id": 517,
+   "IB_Symbol": "RAJMET",
+   "NSE_Symbol": "RAJMET_SM"
+ },
+ {
+   "id": 518,
+   "IB_Symbol": "RAJRAYON",
+   "NSE_Symbol": "RAJRAYON_BZ"
+ },
+ {
+   "id": 519,
+   "IB_Symbol": "RAJSREESU",
+   "NSE_Symbol": "RAJSREESUG"
+ },
+ {
+   "id": 520,
+   "IB_Symbol": "RAJVIR",
+   "NSE_Symbol": "RAJVIR_BE"
+ },
+ {
+   "id": 521,
+   "IB_Symbol": "RAMSARUP",
+   "NSE_Symbol": "RAMSARUP_BZ"
+ },
+ {
+   "id": 522,
+   "IB_Symbol": "RANEENGIN",
+   "NSE_Symbol": "RANEENGINE"
+ },
+ {
+   "id": 523,
+   "IB_Symbol": "RANEHOLDI",
+   "NSE_Symbol": "RANEHOLDIN"
+ },
+ {
+   "id": 524,
+   "IB_Symbol": "REGENCERA",
+   "NSE_Symbol": "REGENCERAM_BE"
+ },
+ {
+   "id": 525,
+   "IB_Symbol": "RELCAPITA",
+   "NSE_Symbol": "RELCAPITAL"
+ },
+ {
+   "id": 526,
+   "IB_Symbol": "RELIABLE",
+   "NSE_Symbol": "RELIABLE_SM"
+ },
+ {
+   "id": 527,
+   "IB_Symbol": "REMSONSIN",
+   "NSE_Symbol": "REMSONSIND"
+ },
+ {
+   "id": 528,
+   "IB_Symbol": "REPL",
+   "NSE_Symbol": "REPL_SM"
+ },
+ {
+   "id": 529,
+   "IB_Symbol": "RETFMID15",
+   "NSE_Symbol": "RETFMID150"
+ },
+ {
+   "id": 530,
+   "IB_Symbol": "RKEC",
+   "NSE_Symbol": "RKEC_SM"
+ },
+ {
+   "id": 531,
+   "IB_Symbol": "RMDRIP",
+   "NSE_Symbol": "RMDRIP_SM"
+ },
+ {
+   "id": 532,
+   "IB_Symbol": "ROHITFERR",
+   "NSE_Symbol": "ROHITFERRO_BE"
+ },
+ {
+   "id": 533,
+   "IB_Symbol": "ROSSELLIN",
+   "NSE_Symbol": "ROSSELLIND"
+ },
+ {
+   "id": 534,
+   "IB_Symbol": "RPPL",
+   "NSE_Symbol": "RPPL_SM"
+ },
+ {
+   "id": 535,
+   "IB_Symbol": "RSSOFTWAR",
+   "NSE_Symbol": "RSSOFTWARE"
+ },
+ {
+   "id": 536,
+   "IB_Symbol": "RUCHINFRA",
+   "NSE_Symbol": "RUCHINFRA_BE"
+ },
+ {
+   "id": 537,
+   "IB_Symbol": "RUCHISOYA",
+   "NSE_Symbol": "RUCHISOYA_BE"
+ },
+ {
+   "id": 538,
+   "IB_Symbol": "SAKAR",
+   "NSE_Symbol": "SAKAR_SM"
+ },
+ {
+   "id": 539,
+   "IB_Symbol": "SAKETH",
+   "NSE_Symbol": "SAKETH_SM"
+ },
+ {
+   "id": 540,
+   "IB_Symbol": "SALORAINT",
+   "NSE_Symbol": "SALORAINTL"
+ },
+ {
+   "id": 541,
+   "IB_Symbol": "SALZERELE",
+   "NSE_Symbol": "SALZERELEC"
+ },
+ {
+   "id": 542,
+   "IB_Symbol": "SANGHVIFO",
+   "NSE_Symbol": "SANGHVIFOR"
+ },
+ {
+   "id": 543,
+   "IB_Symbol": "SANGHVIMO",
+   "NSE_Symbol": "SANGHVIMOV"
+ },
+ {
+   "id": 544,
+   "IB_Symbol": "SANGINITA",
+   "NSE_Symbol": "SANGINITA_SM"
+ },
+ {
+   "id": 545,
+   "IB_Symbol": "SARVESHWA",
+   "NSE_Symbol": "SARVESHWAR_SM"
+ },
+ {
+   "id": 546,
+   "IB_Symbol": "SASTASUND",
+   "NSE_Symbol": "SASTASUNDR"
+ },
+ {
+   "id": 547,
+   "IB_Symbol": "SATHAISPA",
+   "NSE_Symbol": "SATHAISPAT"
+ },
+ {
+   "id": 548,
+   "IB_Symbol": "SBIETFQLT",
+   "NSE_Symbol": "SBIETFQLTY"
+ },
+ {
+   "id": 549,
+   "IB_Symbol": "SCHAEFFLE",
+   "NSE_Symbol": "SCHAEFFLER"
+ },
+ {
+   "id": 550,
+   "IB_Symbol": "SECURCRED",
+   "NSE_Symbol": "SECURCRED_SM"
+ },
+ {
+   "id": 551,
+   "IB_Symbol": "SELMCL",
+   "NSE_Symbol": "SELMCL_BE"
+ },
+ {
+   "id": 552,
+   "IB_Symbol": "SERVOTECH",
+   "NSE_Symbol": "SERVOTECH_SM"
+ },
+ {
+   "id": 553,
+   "IB_Symbol": "SESHAPAPE",
+   "NSE_Symbol": "SESHAPAPER"
+ },
+ {
+   "id": 554,
+   "IB_Symbol": "SETF10GIL",
+   "NSE_Symbol": "SETF10GILT"
+ },
+ {
+   "id": 555,
+   "IB_Symbol": "SGFL",
+   "NSE_Symbol": "SGFL_BE"
+ },
+ {
+   "id": 556,
+   "IB_Symbol": "SHAHALLOY",
+   "NSE_Symbol": "SHAHALLOYS"
+ },
+ {
+   "id": 557,
+   "IB_Symbol": "SHAIVAL",
+   "NSE_Symbol": "SHAIVAL_SM"
+ },
+ {
+   "id": 558,
+   "IB_Symbol": "SHAKTIPUM",
+   "NSE_Symbol": "SHAKTIPUMP"
+ },
+ {
+   "id": 559,
+   "IB_Symbol": "SHALPAINT",
+   "NSE_Symbol": "SHALPAINTS"
+ },
+ {
+   "id": 560,
+   "IB_Symbol": "SHANTI",
+   "NSE_Symbol": "SHANTI_SM"
+ },
+ {
+   "id": 561,
+   "IB_Symbol": "SHANTIGEA",
+   "NSE_Symbol": "SHANTIGEAR"
+ },
+ {
+   "id": 562,
+   "IB_Symbol": "SHARDACRO",
+   "NSE_Symbol": "SHARDACROP"
+ },
+ {
+   "id": 563,
+   "IB_Symbol": "SHARDAMOT",
+   "NSE_Symbol": "SHARDAMOTR"
+ },
+ {
+   "id": 564,
+   "IB_Symbol": "SHARIABEE",
+   "NSE_Symbol": "SHARIABEES"
+ },
+ {
+   "id": 565,
+   "IB_Symbol": "SHARONBIO",
+   "NSE_Symbol": "SHARONBIO_BZ"
+ },
+ {
+   "id": 566,
+   "IB_Symbol": "SHILPI",
+   "NSE_Symbol": "SHILPI_BZ"
+ },
+ {
+   "id": 567,
+   "IB_Symbol": "SHIVAMAUT",
+   "NSE_Symbol": "SHIVAMAUTO"
+ },
+ {
+   "id": 568,
+   "IB_Symbol": "SHIVAMILL",
+   "NSE_Symbol": "SHIVAMILLS"
+ },
+ {
+   "id": 569,
+   "IB_Symbol": "SHOPERSTO",
+   "NSE_Symbol": "SHOPERSTOP"
+ },
+ {
+   "id": 570,
+   "IB_Symbol": "SHRADHA",
+   "NSE_Symbol": "SHRADHA_SM"
+ },
+ {
+   "id": 571,
+   "IB_Symbol": "SHREEPUSH",
+   "NSE_Symbol": "SHREEPUSHK"
+ },
+ {
+   "id": 572,
+   "IB_Symbol": "SHRENIK",
+   "NSE_Symbol": "SHRENIK_SM"
+ },
+ {
+   "id": 573,
+   "IB_Symbol": "SHREYANIN",
+   "NSE_Symbol": "SHREYANIND"
+ },
+ {
+   "id": 574,
+   "IB_Symbol": "SHRIPISTO",
+   "NSE_Symbol": "SHRIPISTON_BE"
+ },
+ {
+   "id": 575,
+   "IB_Symbol": "SHRIRAMCI",
+   "NSE_Symbol": "SHRIRAMCIT"
+ },
+ {
+   "id": 576,
+   "IB_Symbol": "SHRIRAMEP",
+   "NSE_Symbol": "SHRIRAMEPC"
+ },
+ {
+   "id": 577,
+   "IB_Symbol": "SHUBHLAXM",
+   "NSE_Symbol": "SHUBHLAXMI_SM"
+ },
+ {
+   "id": 578,
+   "IB_Symbol": "SIIL",
+   "NSE_Symbol": "SIIL_SM"
+ },
+ {
+   "id": 579,
+   "IB_Symbol": "SIKKO",
+   "NSE_Symbol": "SIKKO_SM"
+ },
+ {
+   "id": 580,
+   "IB_Symbol": "SIL",
+   "NSE_Symbol": "SIL_BE"
+ },
+ {
+   "id": 581,
+   "IB_Symbol": "SILGO",
+   "NSE_Symbol": "SILGO_SM"
+ },
+ {
+   "id": 582,
+   "IB_Symbol": "SILLYMONK",
+   "NSE_Symbol": "SILLYMONKS_SM"
+ },
+ {
+   "id": 583,
+   "IB_Symbol": "SILVERTUC",
+   "NSE_Symbol": "SILVERTUC_SM"
+ },
+ {
+   "id": 584,
+   "IB_Symbol": "SIMPLEXIN",
+   "NSE_Symbol": "SIMPLEXINF"
+ },
+ {
+   "id": 585,
+   "IB_Symbol": "SINTERCOM",
+   "NSE_Symbol": "SINTERCOM_SM"
+ },
+ {
+   "id": 586,
+   "IB_Symbol": "SIRCA",
+   "NSE_Symbol": "SIRCA_SM"
+ },
+ {
+   "id": 587,
+   "IB_Symbol": "SITASHREE",
+   "NSE_Symbol": "SITASHREE_BE"
+ },
+ {
+   "id": 588,
+   "IB_Symbol": "SKIL",
+   "NSE_Symbol": "SKIL_BE"
+ },
+ {
+   "id": 589,
+   "IB_Symbol": "SKMEGGPRO",
+   "NSE_Symbol": "SKMEGGPROD"
+ },
+ {
+   "id": 590,
+   "IB_Symbol": "SKML",
+   "NSE_Symbol": "SKML_SM"
+ },
+ {
+   "id": 591,
+   "IB_Symbol": "SKSTEXTIL",
+   "NSE_Symbol": "SKSTEXTILE_SM"
+ },
+ {
+   "id": 592,
+   "IB_Symbol": "SMPL",
+   "NSE_Symbol": "SMPL_BE"
+ },
+ {
+   "id": 593,
+   "IB_Symbol": "SMVD",
+   "NSE_Symbol": "SMVD_SM"
+ },
+ {
+   "id": 594,
+   "IB_Symbol": "SOFTTECH",
+   "NSE_Symbol": "SOFTTECH_SM"
+ },
+ {
+   "id": 595,
+   "IB_Symbol": "SOLEX",
+   "NSE_Symbol": "SOLEX_SM"
+ },
+ {
+   "id": 596,
+   "IB_Symbol": "SOMANYCER",
+   "NSE_Symbol": "SOMANYCERA"
+ },
+ {
+   "id": 597,
+   "IB_Symbol": "SOMICONVE",
+   "NSE_Symbol": "SOMICONVEY"
+ },
+ {
+   "id": 598,
+   "IB_Symbol": "SONAMCLOC",
+   "NSE_Symbol": "SONAMCLOCK_SM"
+ },
+ {
+   "id": 599,
+   "IB_Symbol": "SONATSOFT",
+   "NSE_Symbol": "SONATSOFTW"
+ },
+ {
+   "id": 600,
+   "IB_Symbol": "SONISOYA",
+   "NSE_Symbol": "SONISOYA_SM"
+ },
+ {
+   "id": 601,
+   "IB_Symbol": "SORILINFR",
+   "NSE_Symbol": "SORILINFRA"
+ },
+ {
+   "id": 602,
+   "IB_Symbol": "SOUTHWEST",
+   "NSE_Symbol": "SOUTHWEST_SM"
+ },
+ {
+   "id": 603,
+   "IB_Symbol": "SPCENET",
+   "NSE_Symbol": "SPCENET_BE"
+ },
+ {
+   "id": 604,
+   "IB_Symbol": "SPECIALIT",
+   "NSE_Symbol": "SPECIALITY"
+ },
+ {
+   "id": 605,
+   "IB_Symbol": "SPECTRUM",
+   "NSE_Symbol": "SPECTRUM_SM"
+ },
+ {
+   "id": 606,
+   "IB_Symbol": "SPENTEX",
+   "NSE_Symbol": "SPENTEX_BE"
+ },
+ {
+   "id": 607,
+   "IB_Symbol": "SPYL",
+   "NSE_Symbol": "SPYL_BE"
+ },
+ {
+   "id": 608,
+   "IB_Symbol": "SRHHYPOLT",
+   "NSE_Symbol": "SRHHYPOLTD"
+ },
+ {
+   "id": 609,
+   "IB_Symbol": "SRIRAM",
+   "NSE_Symbol": "SRIRAM_SM"
+ },
+ {
+   "id": 610,
+   "IB_Symbol": "SRPL",
+   "NSE_Symbol": "SRPL_SM"
+ },
+ {
+   "id": 611,
+   "IB_Symbol": "SRSLTD",
+   "NSE_Symbol": "SRSLTD_BZ"
+ },
+ {
+   "id": 612,
+   "IB_Symbol": "SRTRANSFI",
+   "NSE_Symbol": "SRTRANSFIN"
+ },
+ {
+   "id": 613,
+   "IB_Symbol": "SSINFRA",
+   "NSE_Symbol": "SSINFRA_SM"
+ },
+ {
+   "id": 614,
+   "IB_Symbol": "STAN",
+   "NSE_Symbol": "STAN_DR"
+ },
+ {
+   "id": 615,
+   "IB_Symbol": "STARCEMEN",
+   "NSE_Symbol": "STARCEMENT"
+ },
+ {
+   "id": 616,
+   "IB_Symbol": "STEELCITY",
+   "NSE_Symbol": "STEELCITY_SM"
+ },
+ {
+   "id": 617,
+   "IB_Symbol": "SUDARSCHE",
+   "NSE_Symbol": "SUDARSCHEM"
+ },
+ {
+   "id": 618,
+   "IB_Symbol": "SUJANAUNI",
+   "NSE_Symbol": "SUJANAUNI_BE"
+ },
+ {
+   "id": 619,
+   "IB_Symbol": "SUMEETIND",
+   "NSE_Symbol": "SUMEETINDS"
+ },
+ {
+   "id": 620,
+   "IB_Symbol": "SUMIT",
+   "NSE_Symbol": "SUMIT_SM"
+ },
+ {
+   "id": 621,
+   "IB_Symbol": "SUNCLAYLT",
+   "NSE_Symbol": "SUNCLAYLTD"
+ },
+ {
+   "id": 622,
+   "IB_Symbol": "SUNDARMFI",
+   "NSE_Symbol": "SUNDARMFIN"
+ },
+ {
+   "id": 623,
+   "IB_Symbol": "SUNDARMHL",
+   "NSE_Symbol": "SUNDARMHLD"
+ },
+ {
+   "id": 624,
+   "IB_Symbol": "SUNDRMBRA",
+   "NSE_Symbol": "SUNDRMBRAK"
+ },
+ {
+   "id": 625,
+   "IB_Symbol": "SUNDRMFAS",
+   "NSE_Symbol": "SUNDRMFAST"
+ },
+ {
+   "id": 626,
+   "IB_Symbol": "SUNILHITE",
+   "NSE_Symbol": "SUNILHITEC_BE"
+ },
+ {
+   "id": 627,
+   "IB_Symbol": "SUPERHOUS",
+   "NSE_Symbol": "SUPERHOUSE"
+ },
+ {
+   "id": 628,
+   "IB_Symbol": "SUPREMEEN",
+   "NSE_Symbol": "SUPREMEENG_SM"
+ },
+ {
+   "id": 629,
+   "IB_Symbol": "SUPREMEI1",
+   "NSE_Symbol": "SUPREMEINF"
+ },
+ {
+   "id": 630,
+   "IB_Symbol": "SUPREMEIN",
+   "NSE_Symbol": "SUPREMEIND"
+ },
+ {
+   "id": 631,
+   "IB_Symbol": "SURANATP",
+   "NSE_Symbol": "SURANAT&P"
+ },
+ {
+   "id": 632,
+   "IB_Symbol": "SURANI",
+   "NSE_Symbol": "SURANI_SM"
+ },
+ {
+   "id": 633,
+   "IB_Symbol": "SUREVIN",
+   "NSE_Symbol": "SUREVIN_SM"
+ },
+ {
+   "id": 634,
+   "IB_Symbol": "SURYALAXM",
+   "NSE_Symbol": "SURYALAXMI"
+ },
+ {
+   "id": 635,
+   "IB_Symbol": "SURYAROSN",
+   "NSE_Symbol": "SURYAROSNI"
+ },
+ {
+   "id": 636,
+   "IB_Symbol": "SUULD",
+   "NSE_Symbol": "SUULD_SM"
+ },
+ {
+   "id": 637,
+   "IB_Symbol": "SVLL",
+   "NSE_Symbol": "SVLL_SM"
+ },
+ {
+   "id": 638,
+   "IB_Symbol": "SWANENERG",
+   "NSE_Symbol": "SWANENERGY"
+ },
+ {
+   "id": 639,
+   "IB_Symbol": "SYNCOM",
+   "NSE_Symbol": "SYNCOM_BE"
+ },
+ {
+   "id": 640,
+   "IB_Symbol": "TAINWALCH",
+   "NSE_Symbol": "TAINWALCHM"
+ },
+ {
+   "id": 641,
+   "IB_Symbol": "TALBROAUT",
+   "NSE_Symbol": "TALBROAUTO"
+ },
+ {
+   "id": 642,
+   "IB_Symbol": "TALWALKAR",
+   "NSE_Symbol": "TALWALKARS"
+ },
+ {
+   "id": 643,
+   "IB_Symbol": "TANTIACON",
+   "NSE_Symbol": "TANTIACONS_BE"
+ },
+ {
+   "id": 644,
+   "IB_Symbol": "TARACHAND",
+   "NSE_Symbol": "TARACHAND_SM"
+ },
+ {
+   "id": 645,
+   "IB_Symbol": "TARAJEWEL",
+   "NSE_Symbol": "TARAJEWELS_BE"
+ },
+ {
+   "id": 646,
+   "IB_Symbol": "TATACOFFE",
+   "NSE_Symbol": "TATACOFFEE"
+ },
+ {
+   "id": 647,
+   "IB_Symbol": "TATAGLOBA",
+   "NSE_Symbol": "TATAGLOBAL"
+ },
+ {
+   "id": 648,
+   "IB_Symbol": "TATAINVES",
+   "NSE_Symbol": "TATAINVEST"
+ },
+ {
+   "id": 649,
+   "IB_Symbol": "TATAMETAL",
+   "NSE_Symbol": "TATAMETALI"
+ },
+ {
+   "id": 650,
+   "IB_Symbol": "TATAMOTOR",
+   "NSE_Symbol": "TATAMOTORS"
+ },
+ {
+   "id": 651,
+   "IB_Symbol": "TATAMTRDV",
+   "NSE_Symbol": "TATAMTRDVR"
+ },
+ {
+   "id": 652,
+   "IB_Symbol": "TATASPONG",
+   "NSE_Symbol": "TATASPONGE"
+ },
+ {
+   "id": 653,
+   "IB_Symbol": "TATASTEE1",
+   "NSE_Symbol": "TATASTEEL_E1"
+ },
+ {
+   "id": 654,
+   "IB_Symbol": "TATASTLBS",
+   "NSE_Symbol": "TATASTLBSL_BE"
+ },
+ {
+   "id": 655,
+   "IB_Symbol": "TCIDEVELO",
+   "NSE_Symbol": "TCIDEVELOP"
+ },
+ {
+   "id": 656,
+   "IB_Symbol": "TCIFINANC",
+   "NSE_Symbol": "TCIFINANCE"
+ },
+ {
+   "id": 657,
+   "IB_Symbol": "TCNSBRAND",
+   "NSE_Symbol": "TCNSBRANDS"
+ },
+ {
+   "id": 658,
+   "IB_Symbol": "TDPOWERSY",
+   "NSE_Symbol": "TDPOWERSYS"
+ },
+ {
+   "id": 659,
+   "IB_Symbol": "TECHIN",
+   "NSE_Symbol": "TECHIN_BE"
+ },
+ {
+   "id": 660,
+   "IB_Symbol": "TEXMOPIPE",
+   "NSE_Symbol": "TEXMOPIPES"
+ },
+ {
+   "id": 661,
+   "IB_Symbol": "THANGAMAY",
+   "NSE_Symbol": "THANGAMAYL"
+ },
+ {
+   "id": 662,
+   "IB_Symbol": "THEJO",
+   "NSE_Symbol": "THEJO_SM"
+ },
+ {
+   "id": 663,
+   "IB_Symbol": "THIRUSUGA",
+   "NSE_Symbol": "THIRUSUGAR_BE"
+ },
+ {
+   "id": 664,
+   "IB_Symbol": "THOMASCOO",
+   "NSE_Symbol": "THOMASCOOK"
+ },
+ {
+   "id": 665,
+   "IB_Symbol": "THOMASCOT",
+   "NSE_Symbol": "THOMASCOTT_BE"
+ },
+ {
+   "id": 666,
+   "IB_Symbol": "TIMETECHN",
+   "NSE_Symbol": "TIMETECHNO"
+ },
+ {
+   "id": 667,
+   "IB_Symbol": "TIPSINDLT",
+   "NSE_Symbol": "TIPSINDLTD"
+ },
+ {
+   "id": 668,
+   "IB_Symbol": "TIRUMALCH",
+   "NSE_Symbol": "TIRUMALCHM"
+ },
+ {
+   "id": 669,
+   "IB_Symbol": "TIRUPATI",
+   "NSE_Symbol": "TIRUPATI_SM"
+ },
+ {
+   "id": 670,
+   "IB_Symbol": "TIRUPATIF",
+   "NSE_Symbol": "TIRUPATIFL_SM"
+ },
+ {
+   "id": 671,
+   "IB_Symbol": "TNTELE",
+   "NSE_Symbol": "TNTELE_BE"
+ },
+ {
+   "id": 672,
+   "IB_Symbol": "TOKYOPLAS",
+   "NSE_Symbol": "TOKYOPLAST"
+ },
+ {
+   "id": 673,
+   "IB_Symbol": "TORNTPHAR",
+   "NSE_Symbol": "TORNTPHARM"
+ },
+ {
+   "id": 674,
+   "IB_Symbol": "TORNTPOWE",
+   "NSE_Symbol": "TORNTPOWER"
+ },
+ {
+   "id": 675,
+   "IB_Symbol": "TOTAL",
+   "NSE_Symbol": "TOTAL_SM"
+ },
+ {
+   "id": 676,
+   "IB_Symbol": "TOUCHWOOD",
+   "NSE_Symbol": "TOUCHWOOD_SM"
+ },
+ {
+   "id": 677,
+   "IB_Symbol": "TPLPLASTE",
+   "NSE_Symbol": "TPLPLASTEH"
+ },
+ {
+   "id": 678,
+   "IB_Symbol": "TRANSWIND",
+   "NSE_Symbol": "TRANSWIND_SM"
+ },
+ {
+   "id": 679,
+   "IB_Symbol": "TRITURBIN",
+   "NSE_Symbol": "TRITURBINE"
+ },
+ {
+   "id": 680,
+   "IB_Symbol": "TTKHLTCAR",
+   "NSE_Symbol": "TTKHLTCARE"
+ },
+ {
+   "id": 681,
+   "IB_Symbol": "TTKPRESTI",
+   "NSE_Symbol": "TTKPRESTIG"
+ },
+ {
+   "id": 682,
+   "IB_Symbol": "TV18BRDCS",
+   "NSE_Symbol": "TV18BRDCST"
+ },
+ {
+   "id": 683,
+   "IB_Symbol": "TVSSRICHA",
+   "NSE_Symbol": "TVSSRICHAK"
+ },
+ {
+   "id": 684,
+   "IB_Symbol": "UCL",
+   "NSE_Symbol": "UCL_SM"
+ },
+ {
+   "id": 685,
+   "IB_Symbol": "ULTRACEMC",
+   "NSE_Symbol": "ULTRACEMCO"
+ },
+ {
+   "id": 686,
+   "IB_Symbol": "UMANGDAIR",
+   "NSE_Symbol": "UMANGDAIRY"
+ },
+ {
+   "id": 687,
+   "IB_Symbol": "UNICHEMLA",
+   "NSE_Symbol": "UNICHEMLAB"
+ },
+ {
+   "id": 688,
+   "IB_Symbol": "UNIINFO",
+   "NSE_Symbol": "UNIINFO_SM"
+ },
+ {
+   "id": 689,
+   "IB_Symbol": "UNITECH",
+   "NSE_Symbol": "UNITECH_BE"
+ },
+ {
+   "id": 690,
+   "IB_Symbol": "UNITEDPOL",
+   "NSE_Symbol": "UNITEDPOLY_SM"
+ },
+ {
+   "id": 691,
+   "IB_Symbol": "UNITY",
+   "NSE_Symbol": "UNITY_BZ"
+ },
+ {
+   "id": 692,
+   "IB_Symbol": "UNIVASTU",
+   "NSE_Symbol": "UNIVASTU_SM"
+ },
+ {
+   "id": 693,
+   "IB_Symbol": "UNIVCABLE",
+   "NSE_Symbol": "UNIVCABLES"
+ },
+ {
+   "id": 694,
+   "IB_Symbol": "URAVI",
+   "NSE_Symbol": "URAVI_SM"
+ },
+ {
+   "id": 695,
+   "IB_Symbol": "USHERAGRO",
+   "NSE_Symbol": "USHERAGRO_BE"
+ },
+ {
+   "id": 696,
+   "IB_Symbol": "UTTAMSUGA",
+   "NSE_Symbol": "UTTAMSUGAR"
+ },
+ {
+   "id": 697,
+   "IB_Symbol": "UVSL",
+   "NSE_Symbol": "UVSL_BE"
+ },
+ {
+   "id": 698,
+   "IB_Symbol": "UWCSL",
+   "NSE_Symbol": "UWCSL_SM"
+ },
+ {
+   "id": 699,
+   "IB_Symbol": "VADILALIN",
+   "NSE_Symbol": "VADILALIND"
+ },
+ {
+   "id": 700,
+   "IB_Symbol": "VAIBHAVGB",
+   "NSE_Symbol": "VAIBHAVGBL"
+ },
+ {
+   "id": 701,
+   "IB_Symbol": "VAISHALI",
+   "NSE_Symbol": "VAISHALI_SM"
+ },
+ {
+   "id": 702,
+   "IB_Symbol": "VARDHACRL",
+   "NSE_Symbol": "VARDHACRLC"
+ },
+ {
+   "id": 703,
+   "IB_Symbol": "VARDMNPOL",
+   "NSE_Symbol": "VARDMNPOLY"
+ },
+ {
+   "id": 704,
+   "IB_Symbol": "VASA",
+   "NSE_Symbol": "VASA_SM"
+ },
+ {
+   "id": 705,
+   "IB_Symbol": "VERA",
+   "NSE_Symbol": "VERA_SM"
+ },
+ {
+   "id": 706,
+   "IB_Symbol": "VERTOZ",
+   "NSE_Symbol": "VERTOZ_SM"
+ },
+ {
+   "id": 707,
+   "IB_Symbol": "VICEROY",
+   "NSE_Symbol": "VICEROY_BE"
+ },
+ {
+   "id": 708,
+   "IB_Symbol": "VIDEOIND",
+   "NSE_Symbol": "VIDEOIND_BZ"
+ },
+ {
+   "id": 709,
+   "IB_Symbol": "VIJAYABAN",
+   "NSE_Symbol": "VIJAYABANK"
+ },
+ {
+   "id": 710,
+   "IB_Symbol": "VIJSHAN",
+   "NSE_Symbol": "VIJSHAN_BE"
+ },
+ {
+   "id": 711,
+   "IB_Symbol": "VINATIORG",
+   "NSE_Symbol": "VINATIORGA"
+ },
+ {
+   "id": 712,
+   "IB_Symbol": "VINDHYATE",
+   "NSE_Symbol": "VINDHYATEL"
+ },
+ {
+   "id": 713,
+   "IB_Symbol": "VINNY",
+   "NSE_Symbol": "VINNY_SM"
+ },
+ {
+   "id": 714,
+   "IB_Symbol": "VINYLINDI",
+   "NSE_Symbol": "VINYLINDIA"
+ },
+ {
+   "id": 715,
+   "IB_Symbol": "VIPCLOTHN",
+   "NSE_Symbol": "VIPCLOTHNG"
+ },
+ {
+   "id": 716,
+   "IB_Symbol": "VIPULLTD",
+   "NSE_Symbol": "VIPULLTD_BE"
+ },
+ {
+   "id": 717,
+   "IB_Symbol": "VISESHINF",
+   "NSE_Symbol": "VISESHINFO_BE"
+ },
+ {
+   "id": 718,
+   "IB_Symbol": "VIVIMEDLA",
+   "NSE_Symbol": "VIVIMEDLAB"
+ },
+ {
+   "id": 719,
+   "IB_Symbol": "VLSFINANC",
+   "NSE_Symbol": "VLSFINANCE"
+ },
+ {
+   "id": 720,
+   "IB_Symbol": "VSCL",
+   "NSE_Symbol": "VSCL_SM"
+ },
+ {
+   "id": 721,
+   "IB_Symbol": "VSTTILLER",
+   "NSE_Symbol": "VSTTILLERS"
+ },
+ {
+   "id": 722,
+   "IB_Symbol": "WABCOINDI",
+   "NSE_Symbol": "WABCOINDIA"
+ },
+ {
+   "id": 723,
+   "IB_Symbol": "WALCHANNA",
+   "NSE_Symbol": "WALCHANNAG"
+ },
+ {
+   "id": 724,
+   "IB_Symbol": "WANBURY",
+   "NSE_Symbol": "WANBURY_BE"
+ },
+ {
+   "id": 725,
+   "IB_Symbol": "WEALTH",
+   "NSE_Symbol": "WEALTH_SM"
+ },
+ {
+   "id": 726,
+   "IB_Symbol": "WEBELSOLA",
+   "NSE_Symbol": "WEBELSOLAR"
+ },
+ {
+   "id": 727,
+   "IB_Symbol": "WEIZMANIN",
+   "NSE_Symbol": "WEIZMANIND"
+ },
+ {
+   "id": 728,
+   "IB_Symbol": "WELSPUNIN",
+   "NSE_Symbol": "WELSPUNIND"
+ },
+ {
+   "id": 729,
+   "IB_Symbol": "WILLAMAGO",
+   "NSE_Symbol": "WILLAMAGOR"
+ },
+ {
+   "id": 730,
+   "IB_Symbol": "WINDMACHI",
+   "NSE_Symbol": "WINDMACHIN"
+ },
+ {
+   "id": 731,
+   "IB_Symbol": "WINSOME",
+   "NSE_Symbol": "WINSOME_BE"
+ },
+ {
+   "id": 732,
+   "IB_Symbol": "WIPL",
+   "NSE_Symbol": "WIPL_BE"
+ },
+ {
+   "id": 733,
+   "IB_Symbol": "WOCKPHARM",
+   "NSE_Symbol": "WOCKPHARMA"
+ },
+ {
+   "id": 734,
+   "IB_Symbol": "WORTH",
+   "NSE_Symbol": "WORTH_SM"
+ },
+ {
+   "id": 735,
+   "IB_Symbol": "WSI",
+   "NSE_Symbol": "WSI_BE"
+ },
+ {
+   "id": 736,
+   "IB_Symbol": "WSTCSTPAP",
+   "NSE_Symbol": "WSTCSTPAPR"
+ },
+ {
+   "id": 737,
+   "IB_Symbol": "XLENERGY",
+   "NSE_Symbol": "XLENERGY_BE"
+ },
+ {
+   "id": 738,
+   "IB_Symbol": "ZENITHBIR",
+   "NSE_Symbol": "ZENITHBIR_BE"
+ },
+ {
+   "id": 739,
+   "IB_Symbol": "ZENITHEXP",
+   "NSE_Symbol": "ZENITHEXPO"
+ },
+ {
+   "id": 740,
+   "IB_Symbol": "ZENSARTEC",
+   "NSE_Symbol": "ZENSARTECH"
+ },
+ {
+   "id": 741,
+   "IB_Symbol": "ZODIAC",
+   "NSE_Symbol": "ZODIAC_SM"
+ },
+ {
+   "id": 742,
+   "IB_Symbol": "ZODIACLOT",
+   "NSE_Symbol": "ZODIACLOTH"
+ },
+ {
+   "id": 743,
+   "IB_Symbol": "ZOTA",
+   "NSE_Symbol": "ZOTA_SM"
+ }
+]
