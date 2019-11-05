@@ -1,33 +1,22 @@
 import collections
+import logging
 import time
 import os.path
 import argparse
 import datetime
-import traceback
+import inspect, traceback
 from random import randint
 import csv
 import subprocess
-import os
-import sys
-sys.path.append(os.getcwd()[:os.getcwd().find("HRHD_Worker")+len("HRHD_Worker")])
-
-import random
-from ibapi import *
-from ibapi.utils import *
+import sys, getopt
+from ibapi.utils import iswrapper
 from ibapi.common import *
 from ibapi.contract import *
 from ibapi import wrapper
 from ibapi.client import EClient
 from ibapi.utils import iswrapper
 from ibapi.scanner import ScanData
-from src.hrhd_worker.hrhd_object import HRHDObjects as hrhdObj
-from kafka import KafkaProducer
-import json
-from json import dumps
 
-producer = KafkaProducer(bootstrap_servers=['127.0.0.1:9092'],
-                         value_serializer=lambda x:
-                         dumps(x).encode('utf-8'))
 
 def clear():
     if os.name in ('nt', 'dos'):
@@ -36,6 +25,22 @@ def clear():
         subprocess.call("clear")
     else:
         print("\n") * 120
+
+
+def SetupLogger():
+    if not os.path.exists("log"):
+        os.makedirs("log")
+    time.strftime("pyibapi.%Y%m%d_%H%M%S.log")
+    recfmt = '(%(threadName)s) %(asctime)s.%(msecs)03d %(levelname)s %(filename)s:%(lineno)d %(message)s'
+    timefmt = '%y%m%d_%H:%M:%S'
+    logging.basicConfig(filename=time.strftime("log/pyibapi.%y%m%d_%H%M%S.log"),
+                        filemode="w",
+                        level=logging.INFO,
+                        format=recfmt, datefmt=timefmt)
+    logger = logging.getLogger()
+    console = logging.StreamHandler()
+    console.setLevel(logging.ERROR)
+    logger.addHandler(console)
 
 
 def printWhenExecuting(fn):
@@ -152,7 +157,7 @@ class VukWrapper(wrapper.EWrapper):
             setattr(VukWrapper, methName, self.countWrapReqId(methName, meth))
 
 
-class TickHistoryStreamer(VukWrapper, VukClient):
+class TickHistory(VukWrapper, VukClient):
     HDATE = ""  # "20190131"
     SYMBOL = ""  # "DLF"
     IP = ""
@@ -198,43 +203,33 @@ class TickHistoryStreamer(VukWrapper, VukClient):
                             done: bool):
         self.fulldaydata(ticks)
 
-    @staticmethod
-    def connect_ib(ib_connection):
-        try:
-            if not ib_connection.isConnected():
-                ib_connection.connect(TWS_IP, TMS_PORT, clientId=IB_CLIENT_ID)
-                log.info("serverVersion:%s connectionTime:%s" % (ib_connection.serverVersion(),
-                                                                 ib_connection.twsConnectionTime()))
-        except Exception as ex:
-            log.error(ex)
-            log.error(traceback.format_exc())
+    # ! [historicaltickslast]
 
     def fulldaydata(self, ticks):
         try:
-            # tickbank_path = hrhdObj.get_with_base_path('common', 'tick_bank') + "/" + str(self.HDATE) + "/"
-            # with open(tickbank_path+self.SYMBOL + "_" + self.SECTYPE + ".csv", 'a', newline='') as csvfile:
-            #     filewriter = csv.writer(csvfile, delimiter=',',
-            #                             quotechar='|', quoting=csv.QUOTE_MINIMAL)
-            if len(ticks) >= 1000:
-                i = 0
-                for tick in ticks:
-                    print(str(time.strftime("%D %H:%M:%S", time.localtime(int(tick.time)))) + "," + str(
-                        tick.price) + "," + str(tick.size))
-                    data = {"topicId": "HRHD", "Price": tick.price, "Timestamp": str(int(tick.time))}
-                    producer.send(str("HRHD"), value=data)
-                    i = i + 1
-                    if i == 1000:
-                        self.reqHistoricalTicks(randint(10, 999), self.contract,
-                                                str(self.HDATE) + " " + str(
-                                                    time.strftime("%H:%M:%S", time.localtime(int(tick.time)))), "",
-                                                1000, "TRADES", 1, True, [])
-                        break
-            else:
-                for tick in ticks:
-                    print(str(time.strftime("%D %H:%M:%S", time.localtime(int(tick.time))))+","+str(tick.price)+","+str(tick.size))
-                    data = {"topicId": "HRHD", "Price": tick.price, "time": str(int(tick.time))}
-                    producer.send(str("HRHD"), value=data)
-                sys.exit()
+            with open(self.SYMBOL + "_" + self.SECTYPE + "_" + str(self.HDATE) + ".csv", 'a', newline='') as csvfile:
+                filewriter = csv.writer(csvfile, delimiter=',',
+                                        quotechar='|', quoting=csv.QUOTE_MINIMAL)
+                if (len(ticks) >= 1000):
+                    i = 0
+                    for tick in ticks:
+                        # print(str(time.strftime("%D %H:%M:%S", time.localtime(int(tick.time))))+","+str(tick.price)+","+str(tick.size))
+                        filewriter.writerow(
+                            [str(time.strftime("%D %H:%M:%S", time.localtime(int(tick.time)))), str(tick.price),
+                             str(tick.size)])
+                        i = i + 1
+                        if (i == 1000):
+                            self.reqHistoricalTicks(randint(10, 999), self.contract,
+                                                    str(self.HDATE) + " " + str(
+                                                        time.strftime("%H:%M:%S", time.localtime(int(tick.time)))), "",
+                                                    1000, "TRADES", 1, True, [])
+                            break
+                else:
+                    for tick in ticks:
+                        # print(str(time.strftime("%D %H:%M:%S", time.localtime(int(tick.time))))+","+str(tick.price)+","+str(tick.size))
+                        filewriter.writerow(
+                            [str(time.strftime("%D %H:%M:%S", time.localtime(int(tick.time)))), str(tick.price),
+                             str(tick.size)])
 
         except Exception as e:
             logging.error(traceback.format_exc())
@@ -250,60 +245,13 @@ class TickHistoryStreamer(VukWrapper, VukClient):
         print("CurrentTime:", datetime.datetime.fromtimestamp(time).strftime("%Y%m%d %H:%M:%S"))
     # ! [currenttime]
 
-    def tick_data_req_parameter(self, args_symbol, args_date, args_ip="127.0.0.1", args_cid=1, args_port=4002, args_sectype='STK', args_expiry=None,
-                      args_strike=None, args_right=None):
-        try:
-            # app = TickHistory()
-            self.SYMBOL = args_symbol
-            self.HDATE = args_date
-            self.IP = args_ip
-            self.PORT = args_port
-            self.SECTYPE = args_sectype
-            print("\n## Started ##")
-            print("\nUsing args", args_symbol, args_date, args_ip, args_port, args_sectype, args_expiry, args_strike, args_right)
-            self.connect(self.IP, self.PORT, args_cid)
-            print("\nIB Gateway Time:%s connectionTime:%s" % (self.serverVersion(),
-                                                            self.twsConnectionTime()))
-            print("\n~~ Recorded HRHD for "+self.SYMBOL+", DATE :  "+str(self.HDATE))
 
-            self.contract.symbol = self.SYMBOL
-            self.contract.currency = "INR"
-            self.contract.exchange = "NSE"
-            if self.SECTYPE == "STK":
-                self.contract.secType = self.SECTYPE
-            elif self.SECTYPE == "FUT":
-                self.EXPIRY = args_expiry
-                self.contract.secType = self.SECTYPE
-                self.contract.lastTradeDateOrContractMonth = self.EXPIRY
-            elif self.SECTYPE == "OPT":
-                self.STRIKE = args_strike
-                self.RIGHT = args_right
-                self.EXPIRY = args_expiry
-                self.contract.secType = self.SECTYPE
-                self.contract.lastTradeDateOrContractMonth = self.EXPIRY
-                self.contract.strike = self.STRIKE
-                self.contract.right = self.RIGHT
-            self.reqHistoricalTicks(1000, self.contract,
-                                   str(self.HDATE) + " 09:10:00", "", 1000, "TRADES", 1, True, [])
-            self.run()
-            self.disconnect()
-        except Exception:
-            logging.error(traceback.format_exc())
-            print("\n")
-            print("\n~~~~~~~~~~~~~~~~~~~~~~~~ Error ~~~~~~~~~~~~~~~~~~~~~~~")
-            print("\nError : " + traceback.format_exc())
-            print("\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~")
-        finally:
-            self.dumpTestCoverageSituation()
-            self.dumpReqAnsErrSituation()
-            print("\n## Completed ##")
-
-
-def main_tick_data():
+def main():
+    SetupLogger()
+    logging.debug("now is %s", datetime.datetime.now())
+    logging.getLogger().setLevel(logging.ERROR)
 
     cmdLineParser = argparse.ArgumentParser("Vuk History Data Bot :")
-    cmdLineParser.add_argument("-cid", "--cid", action="store", type=int,
-                               dest="cid", default=random.randint(1,10), help="Unique client id do request")
     cmdLineParser.add_argument("-ip", "--ip", action="store", type=str,
                                dest="ip", default="127.0.0.1", help="The IP to get IB Gateway connection")
     cmdLineParser.add_argument("-p", "--port", action="store", type=int,
@@ -327,21 +275,73 @@ def main_tick_data():
                                dest="right", default="",
                                help="Option Rights For eg: C or P")
     args = cmdLineParser.parse_args()
-    app = TickHistoryStreamer()
-    app.tick_data_req_parameter(
-        args_symbol=args.symbol,
-        args_date=args.date,
-        args_ip=args.ip,
-        args_cid=args.cid,
-        args_port=args.port,
-        args_sectype=args.sectype,
-        args_expiry=args.expiry,
-        args_strike=args.strike,
-        args_right=args.right
-    )
+    from ibapi import utils
+    Contract.__setattr__ = utils.setattr_log
+    DeltaNeutralContract.__setattr__ = utils.setattr_log
+
+    try:
+        app = TickHistory()
+        app.SYMBOL = args.symbol
+        app.HDATE = args.date
+        app.IP = args.ip
+        app.PORT = args.port
+        app.SECTYPE = args.sectype
+        print("Using args", args)
+        logging.debug("Using args %s", args)
+        app.connect(app.IP, app.PORT, clientId=1)
+        clear()
+        print("\n")
+        print("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~")
+        print("~~~~~~~~~ Vuk.ai Start Collecting High Resolution Historical Data ~~~~~~~~~")
+        print("IB Gateway Time:%s connectionTime:%s" % (app.serverVersion(),
+                                                        app.twsConnectionTime()))
+        print("Symbol : " + app.SYMBOL)
+        print("Date : " + str(app.HDATE))
+        print("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~")
+        print("\n")
+        app.contract.symbol = app.SYMBOL
+        app.contract.currency = "INR"
+        app.contract.exchange = "NSE"
+        if (app.SECTYPE == "STK"):
+            app.contract.secType = app.SECTYPE
+        elif (app.SECTYPE == "FUT"):
+            app.EXPIRY = args.expiry
+            app.contract.secType = app.SECTYPE
+            app.contract.lastTradeDateOrContractMonth = app.EXPIRY
+        elif (app.SECTYPE == "OPT"):
+            app.STRIKE = args.strike
+            app.RIGHT = args.right
+            app.EXPIRY = args.expiry
+            app.contract.secType = app.SECTYPE
+            app.contract.lastTradeDateOrContractMonth = app.EXPIRY
+            app.contract.strike = app.STRIKE
+            app.contract.right = app.RIGHT
+            # app.contract.multiplier = "100"
+
+        with open(app.SYMBOL + "_" + app.SECTYPE + "_" + str(app.HDATE) + ".csv", 'w') as csvfile:
+            filewriter = csv.writer(csvfile, delimiter=',',
+                                    quotechar='|', quoting=csv.QUOTE_MINIMAL)
+            filewriter.writerow(["TIME", "PRICE", "SIZE"])
+        app.reqHistoricalTicks(1, app.contract,
+                               str(app.HDATE) + " 09:10:00", "", 1000, "TRADES", 1, True, [])
+
+        app.run()
+        app.disconnect()
+
+    except Exception:
+        logging.error(traceback.format_exc())
+        print("\n")
+        print("~~~~~~~~~~~~~~~~~~~~~~~~ Data Collected and Strored ~~~~~~~~~~~~~~~~~~~~~~~")
+        print("Error : " + traceback.format_exc())
+        print("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~")
+    finally:
+        app.dumpTestCoverageSituation()
+        app.dumpReqAnsErrSituation()
+        print("\n")
+        print("~~~~~~~~~~~~~~~~~~~~~~~~ Data Collected and Strored ~~~~~~~~~~~~~~~~~~~~~~~")
+        print("File : " + app.SYMBOL + "_" + str(app.HDATE) + ".csv")
+        print("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~")
 
 
 if __name__ == "__main__":
-    # main_tick_data()
-    app = TickHistoryStreamer()
-    app.tick_data_req_parameter(args_symbol="TCS", args_date="20191030")
+    main()
