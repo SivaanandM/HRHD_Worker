@@ -211,7 +211,7 @@ class TickHistory(VukWrapper, VukClient):
                             self.reqHistoricalTicks(randint(100, 200), self.contract,
                                                     str(self.HDATE) + " " + str(
                                                         time.strftime("%H:%M:%S", time.localtime(int(tick.time)))), "",
-                                                    1000, "TRADES", 1, True, [])
+                                                    1000, "TRADES", 0, True, [])
                 else:
                     for tick in ticks:
                         print(str(time.strftime("%D %H:%M:%S", time.localtime(int(tick.time))))+","+str(tick.price)+","+str(tick.size))
@@ -275,7 +275,7 @@ class TickHistory(VukWrapper, VukClient):
                                         quotechar='|', quoting=csv.QUOTE_MINIMAL)
                 filewriter.writerow(["TIME", "PRICE", "SIZE"])
             self.reqHistoricalTicks(random.randint(1,100), self.contract,
-                                   str(self.HDATE) + " 09:10:00", "", 1000, "TRADES", 1, True, [])
+                                   str(self.HDATE) + " 09:10:00", "", 1000, "TRADES", 0, True, [])
             self.run()
 
         except Exception:
@@ -335,5 +335,5 @@ def main_tick_data():
 if __name__ == "__main__":
     # main_tick_data()
     app = TickHistory()
-    app.tick_data_req_parameter(args_symbol="IBULHSGFI",args_date="20191023")
+    app.tick_data_req_parameter(args_symbol="TCS", args_date="20200117")
 

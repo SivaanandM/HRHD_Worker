@@ -1,5 +1,7 @@
 import collections
-import time
+import time, os
+os.environ['TZ'] = 'Asia/Kolkata'
+time.tzset()
 import os.path
 import argparse
 import datetime
@@ -162,6 +164,8 @@ class TickHistoryStreamer(VukWrapper, VukClient):
     RIGHT = ""
     EXPIRY = ""
     contract = Contract()
+    exit_stream = None
+    exit_stream_315pm = None
 
     def __init__(self):
         VukWrapper.__init__(self)
@@ -218,9 +222,11 @@ class TickHistoryStreamer(VukWrapper, VukClient):
             if len(ticks) >= 1000:
                 i = 0
                 for tick in ticks:
+                    # datetime.datetime.utcfromtimestamp(int(tick.time)).strftime('%D %H:%M:%S')
                     print(str(time.strftime("%D %H:%M:%S", time.localtime(int(tick.time)))) + "," + str(
-                        tick.price) + "," + str(tick.size))
-                    data = {"topicId": "HRHD", "Price": tick.price, "Timestamp": str(int(tick.time))}
+                         tick.price) + "," + str(tick.size))
+                    data = {"TopicId": "HRHD", "Price": tick.price, "Timestamp": str(int(tick.time))}
+                    # print(tick.price, tick.time)
                     producer.send(str("HRHD"), value=data)
                     i = i + 1
                     if i == 1000:
@@ -228,13 +234,20 @@ class TickHistoryStreamer(VukWrapper, VukClient):
                                                 str(self.HDATE) + " " + str(
                                                     time.strftime("%H:%M:%S", time.localtime(int(tick.time)))), "",
                                                 1000, "TRADES", 1, True, [])
-                        break
             else:
+                last_time = None
                 for tick in ticks:
                     print(str(time.strftime("%D %H:%M:%S", time.localtime(int(tick.time))))+","+str(tick.price)+","+str(tick.size))
                     data = {"topicId": "HRHD", "Price": tick.price, "time": str(int(tick.time))}
                     producer.send(str("HRHD"), value=data)
-                sys.exit()
+                    last_time = tick.time
+                if float(tick.time) > self.exit_stream_315pm:
+                        sys.exit()
+                else:
+                    self.reqHistoricalTicks(randint(10, 999), self.contract,
+                                            str(self.HDATE) + " " + str(
+                                                time.strftime("%H:%M:%S", time.localtime(int(last_time)))), "",
+                                            1000, "TRADES", 1, True, [])
 
         except Exception as e:
             logging.error(traceback.format_exc())
@@ -250,7 +263,7 @@ class TickHistoryStreamer(VukWrapper, VukClient):
         print("CurrentTime:", datetime.datetime.fromtimestamp(time).strftime("%Y%m%d %H:%M:%S"))
     # ! [currenttime]
 
-    def tick_data_req_parameter(self, args_symbol, args_date, args_ip="127.0.0.1", args_cid=1, args_port=4002, args_sectype='STK', args_expiry=None,
+    def tick_data_req_parameter(self, args_symbol, args_date, args_ip="127.0.0.1", args_cid=random.randint(1, 10), args_port=4002, args_sectype='STK', args_expiry=None,
                       args_strike=None, args_right=None):
         try:
             # app = TickHistory()
@@ -259,6 +272,8 @@ class TickHistoryStreamer(VukWrapper, VukClient):
             self.IP = args_ip
             self.PORT = args_port
             self.SECTYPE = args_sectype
+            self.exit_stream = datetime.datetime.strptime(self.HDATE + ' 15:15:00', '%Y%m%d %H:%M:%S')
+            self.exit_stream_315pm = time.mktime(self.exit_stream.timetuple())
             print("\n## Started ##")
             print("\nUsing args", args_symbol, args_date, args_ip, args_port, args_sectype, args_expiry, args_strike, args_right)
             self.connect(self.IP, self.PORT, args_cid)
@@ -283,8 +298,7 @@ class TickHistoryStreamer(VukWrapper, VukClient):
                 self.contract.lastTradeDateOrContractMonth = self.EXPIRY
                 self.contract.strike = self.STRIKE
                 self.contract.right = self.RIGHT
-            self.reqHistoricalTicks(1000, self.contract,
-                                   str(self.HDATE) + " 09:10:00", "", 1000, "TRADES", 1, True, [])
+            self.reqHistoricalTicks(1000, self.contract, str(self.HDATE) + " 09:15:00", "", 1000, "TRADES", 0, True, [])
             self.run()
             self.disconnect()
         except Exception:
@@ -300,7 +314,6 @@ class TickHistoryStreamer(VukWrapper, VukClient):
 
 
 def main_tick_data():
-
     cmdLineParser = argparse.ArgumentParser("Vuk History Data Bot :")
     cmdLineParser.add_argument("-cid", "--cid", action="store", type=int,
                                dest="cid", default=random.randint(1,10), help="Unique client id do request")
@@ -309,10 +322,10 @@ def main_tick_data():
     cmdLineParser.add_argument("-p", "--port", action="store", type=int,
                                dest="port", default=4002, help="The TCP port to use For eg: 1122")
     cmdLineParser.add_argument("-s", "--symbol", action="store", type=str,
-                               dest="symbol", default="INFY",
+                               dest="symbol", default="",
                                help="Instrument Symbol For eg: INFY ")
     cmdLineParser.add_argument("-d", "--date", action="store", type=str,
-                               dest="date", default="20190131",
+                               dest="date", default="",
                                help="Date (yyyymmdd) For eg: 20190131")
     cmdLineParser.add_argument("-st", "--sectype", action="store", type=str,
                                dest="sectype", default="STK",
@@ -344,4 +357,4 @@ def main_tick_data():
 if __name__ == "__main__":
     # main_tick_data()
     app = TickHistoryStreamer()
-    app.tick_data_req_parameter(args_symbol="TCS", args_date="20191030")
+    app.tick_data_req_parameter(args_symbol="TCS", args_date="20200117")
