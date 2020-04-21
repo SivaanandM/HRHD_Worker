@@ -357,4 +357,4 @@ def main_tick_data():
 if __name__ == "__main__":
     # main_tick_data()
     app = TickHistoryStreamer()
-    app.tick_data_req_parameter(args_symbol="TCS", args_date="20200117")
+    app.tick_data_req_parameter(args_symbol="INFY", args_date="20200121")
