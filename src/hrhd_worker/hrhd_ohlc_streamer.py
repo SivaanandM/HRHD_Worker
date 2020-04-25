@@ -30,13 +30,15 @@ class HrhdOhlcStreamer(object):
 
     def stream_ohlc(self):
         f = open("/Users/msivaanand/siva_projects/HRHD_Worker/tickbank/"+self.strdate+"/"+self.strsymbol+"_STK.csv")
+        # f = open("/Users/msivaanand/siva_projects/HRHD_Worker/tickbank/"+self.strdate+"/"+self.strsymbol+"_ticks.csv")
         csv_f = csv.reader(f)
         for index,row in enumerate(csv_f):
             if index > 0:
-                print(row)
+
                 try:
-                    data = {"topicId": self.strsymbol, "Price": float(row[1]), "Timestamp": str(row[0])}
+                    data = {"topicId": self.strsymbol, "Price": float(row[1]), "Timestamp": str(int(row[0]))}
                     # producer.send(str(self.strsymbol), value=data).get(timeout=30)
+                    print(data)
                     ack = producer.send(str(self.strsymbol), value=data).get(timeout=5)
                     sleep(0.03)
                     producer.flush()
@@ -44,4 +46,4 @@ class HrhdOhlcStreamer(object):
                     print(ex)
 
 if __name__ == "__main__":
-    obj = HrhdOhlcStreamer('20200417','ADANIPORT')
+    obj = HrhdOhlcStreamer('20200424','CIPLA')
